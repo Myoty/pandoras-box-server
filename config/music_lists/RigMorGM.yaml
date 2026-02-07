@@ -1,0 +1,476 @@
+- category: --Rigor Mortis Character Themes--
+  songs:
+  - name: RigMor/Karmens_Theme.opus
+  - name: RigMor/Eleanors_Theme.opus
+  - name: RigMor/Deborahs_Theme.opus
+  - name: RigMor/Aiyanas_Theme.opus
+  - name: RigMor/Hijinks.opus
+  - name: RigMor/Yuis_Theme.opus
+  - name: RigMor/Saikaris_Theme.opus
+  - name: RigMor/Cecilias_Theme.opus
+  - name: RigMor/Katrielles_Theme.opus
+  - name: RigMor/Irohas_Theme.opus
+  - name: RigMor/Denniss_Theme.opus
+  - name: RigMor/Nayutas_Theme.opus
+  - name: RigMor/Taylors_Theme.opus
+  - name: RigMor/Korekiyos_Theme.opus
+  - name: RigMor/Desmonds_Theme.opus
+  - name: RigMor/Claudias_Theme.opus
+  - name: RigMor/Bios_Theme.opus
+  - name: RigMor/Syoubus_Theme.opus
+  - name: RigMor/Hououins_Theme.opus
+  - name: RigMor/LaLloronas_Theme.opus
+  - name: RigMor/Watchers_Theme.opus
+  - name: RigMor/Januss_Theme.opus
+  - name: RigMor/JohnathansTheme.opus
+- category: --Rigor Mortis Location Themes--
+  songs:
+  - name: RigMor/Lobby_Theme.opus
+  - name: RigMor/Dining_Theme.opus
+  - name: RigMor/Game_Room_Theme.opus
+  - name: RigMor/Study_Theme.opus
+  - name: RigMor/Clinic_Theme.opus
+  - name: RigMor/Gym_Theme.opus
+  - name: RigMor/Shed_Theme.opus
+  - name: RigMor/Halls_Theme.opus
+  - name: RigMor/Tavern_Theme.opus
+  - name: RigMor/Workshop_Theme.opus
+  - name: RigMor/Library_Theme.opus
+  - name: RigMor/Archive_Theme.opus
+  - name: RigMor/HotSpring_Theme.opus
+  - name: RigMor/All_Purpose_Room_Theme.opus
+  - name: RigMor/FilmStudio_Theme.opus
+  - name: RigMor/ArtStudio_Theme.opus
+  - name: RigMor/Lodging_Theme.opus
+  - name: RigMor/Staff_Lodging_Theme.opus
+  - name: RigMor/Attic_Theme.opus
+  - name: RigMor/ForensicsLab_Theme.opus
+  - name: RigMor/ShootingRange_Theme.opus
+  - name: RigMor/HauntedHouse_Theme.opus
+  - name: RigMor/Midway_Theme.opus
+  - name: RigMor/BigTop_Theme.opus
+  - name: RigMor/Restaurant_Theme.opus
+  - name: RigMor/Arcade_Theme.opus
+  - name: RigMor/Crypt_Theme.opus
+  - name: RigMor/Exorcism_Room_Theme.opus
+  - name: RigMor/Courtroom_Theme.opus
+- category: --Rigor Mortis Trial Themes--
+  songs:
+  - name: RigMor/Staffs_Trial_Theme.opus
+  - name: RigMor/Investigation.opus
+  - name: RigMor/InvestigationDX.opus
+  - name: RigMor/NoStringsAttached.opus
+  - name: RigMor/KnockemDead.opus
+  - name: RigMor/AssistantTheme.opus
+  - name: RigMor/CantMissIt.opus
+  - name: RigMor/LilithInvestigation.opus
+  - name: RigMor/Empty_Corridors.opus
+  - name: RigMor/Empty_CorridorsDX.opus
+  - name: RigMor/Heat_Up.opus
+  - name: RigMor/HeatUpDX.opus
+  - name: RigMor/Discussion.opus
+  - name: RigMor/DiscussionDX.opus
+  - name: RigMor/Debate.opus
+  - name: RigMor/DebateDX.opus
+  - name: RigMor/Argument.opus
+  - name: RigMor/ArgumentDX.opus
+  - name: RigMor/Opening_Statements.opus
+  - name: RigMor/OpeningStatementsDX.opus
+  - name: RigMor/Going_Nowhere.opus
+  - name: RigMor/Going_NowhereDX.opus
+  - name: RigMor/Out_of_Time.opus
+  - name: RigMor/Out_of_TimeDX.opus
+  - name: RigMor/Closing_In.opus
+  - name: RigMor/ClosingInDX.opus
+  - name: RigMor/Yuis_Trial_Theme.opus
+  - name: RigMor/Saikaris_Trial_Theme.opus
+  - name: RigMor/Cecilias_Trial_Theme.opus
+  - name: RigMor/Katrielles_Trial_Theme.opus
+  - name: RigMor/Irohas_Trial_Theme.opus
+  - name: RigMor/Denniss_Trial_Theme.opus
+  - name: RigMor/Nayutas_Trial_Theme.opus
+  - name: RigMor/Korekiyos_Trial_Theme.opus
+  - name: RigMor/Desmonds_Trial_Theme.opus
+  - name: RigMor/Claudias_Trial_Theme.opus
+  - name: RigMor/Bios_Trial_Theme.opus
+  - name: RigMor/Syoubus_Trial_Theme.opus
+  - name: RigMor/Aiyanas_Trial_Theme.opus
+- category: --Rigor Mortis Joke Themes--
+  songs:
+  - name: RigMor/ClimbingCentre_Alt.opus
+  - name: RigMor/Nyarlathotep_Joke_Theme.opus
+  - name: RigMor/Watcher_Joke_Theme.opus
+  - name: RigMor/Janus_Joke_Theme.opus
+  - name: RigMor/Johnathan_Joke_Theme.opus
+  - name: RigMor/Get_Fucked.opus
+- category: --Chill Themes--
+  songs:
+  - name: RigMor/Childish_Thoughts.opus
+  - name: RigMor/imprinting.opus
+  - name: RigMor/Love_You.opus
+  - name: RigMor/Winter_Tundra.opus
+  - name: RigMor/Crystal_Palace_Crawl.opus
+  - name: RigMor/TardyJackal.opus
+- category: --Tense Themes--
+  songs:
+  - name: RigMor/You_Can't_Escape_You_Know.opus
+  - name: RigMor/Tension_(Power Cut).opus
+  - name: RigMor/Even_in_Death.opus
+  - name: RigMor/Foreboding.opus
+  - name: RigMor/Northern_Hemispheres.opus
+- category: --Silly Themes--
+  songs:
+  - name: RigMor/Intruder_Alert.opus
+  - name: RigMor/Pumpkin_Party.opus
+  - name: RigMor/Frogsong.opus
+  - name: RigMor/Promised_Grace.opus
+  - name: RigMor/Pepper_Steak.opus
+  - name: RigMor/Library_Piano.opus
+- category: --Idle Themes--
+  songs:
+  - name: RigMor/Left_Bank_Two.opus
+  - name: RigMor/Windmill_Isle_(Night).opus
+  - name: RigMor/Austin_Atlantis.opus
+  - name: RigMor/Lost_Painting.opus
+  - name: RigMor/White_Noiz.opus
+  - name: RigMor/Moonsetter.opus
+- category: --Sad Themes--
+  songs:
+  - name: RigMor/The_Ocean_on_His_Shoulders.opus
+  - name: RigMor/Cog_in_the_Machine.opus
+  - name: RigMor/Luma.opus
+  - name: RigMor/Because_I_Will_Protect_You.opus
+  - name: RigMor/Theme_of_Love.opus
+- category: --Alt Themes--
+  songs:
+  - name: RigMor/Karmens_Alt_Theme.opus
+  - name: RigMor/Saikaris_Alt_Theme.opus
+  - name: RigMor/Katrielles_Alt_Theme.opus
+  - name: RigMor/Bios_Alt_Theme.opus
+  - name: RigMor/Claudias_Alt_Trial_Theme.opus
+  - name: RigMor/Desmond_Alt_Trial_Theme.opus
+  - name: RigMor/Yui_Alt_Theme.opus
+  - name: RigMor/Dennis_Alt_Theme.opus
+  - name: RigMor/DreamsofLethe.opus
+  - name: RigMor/TheMoment.opus
+- category: --Secret Themes--
+  songs:
+  - name: RigMorGM/The_Great_Spirits_Theme.opus
+  - name: RigMorGM/Nyanlathoteps_Theme.opus
+  - name: RigMorGM/Killing_Moon.opus
+  - name: RigMorGM/TheTower.opus
+  - name: RigMorGM/AllThatRemains.opus
+  - name: RigMorGM/AnUnknownObserver.opus
+  - name: RigMorGM/GrimGrinningGhosts.opus
+  - name: RigMorGM/TamamosTheme.opus
+  - name: RigMorGM/QueensTheme.opus
+  - name: RigMorGM/Liminal.opus
+  - name: RigMorGM/ThisisNotaDrill.opus
+  - name: RigMorGM/Looming.opus
+  - name: RigMorGM/Chase.opus
+  - name: RigMorGM/Chase2.opus
+  - name: RigMorGM/Chase3.opus
+  - name: RigMorGM/Tartarus_Theme.opus
+  - name: RigMorGM/Asphodel_Theme.opus
+  - name: RigMorGM/Pandaemonium_Theme.opus
+  - name: RigMorGM/HououinsLittleSecret.opus
+  - name: RigMorGM/IntruderDetected.opus
+  - name: RigMorGM/LilithsTheme.opus
+  - name: RigMorGM/MarshallsTheme.opus
+  - name: RigMorGM/DennisReturn.opus
+  - name: RigMorGM/FinalBattle1.opus
+  - name: RigMorGM/FinalBattle2.opus
+  - name: RigMorGM/Aftermath.opus
+  - name: RigMorGM/EndCredits.opus
+- category: --Danganronpa 1--
+  songs:
+  - name: dro_dr1/All All Apologies.opus
+  - name: dro_dr1/Beautiful Days.opus
+  - name: dro_dr1/Beautiful Dead.opus
+  - name: dro_dr1/Beautiful Morning.opus
+  - name: dro_dr1/BOX 15.opus
+  - name: dro_dr1/BOX 16.opus
+  - name: dro_dr1/Bullet Truth Get.opus
+  - name: dro_dr1/Chapter Results.opus
+  - name: dro_dr1/Class Trial (Dawn Edition).opus
+  - name: dro_dr1/Class Trial (Solar Edition) -PROTOTYPE-.opus
+  - name: dro_dr1/Class Trial (Solar Edition).opus
+  - name: dro_dr1/Class Trial (Turbulent Edition).opus
+  - name: dro_dr1/Climactic Reasoning -Extended Mix-.opus
+  - name: dro_dr1/Climactic Reasoning.opus
+  - name: dro_dr1/Climactic Return.opus
+  - name: dro_dr1/Danganronpa!.opus
+  - name: dro_dr1/DANGANRONPA(RX-Ver. S.P.L).opus
+  - name: dro_dr1/DANGANRONPA.opus
+  - name: dro_dr1/Death Wish.opus
+  - name: dro_dr1/Desire for Execution....opus
+  - name: dro_dr1/Despair Pollution Noise Music.opus
+  - name: dro_dr1/Despair Syndrome (2).opus
+  - name: dro_dr1/Despair Syndrome.opus
+  - name: dro_dr1/Discussion -BREAK-.opus
+  - name: dro_dr1/Discussion -HEAT UP-.opus
+  - name: dro_dr1/Discussion -HOPE VS DESPAIR-.opus
+  - name: dro_dr1/Discussion -MIX- (EDGE Version).opus
+  - name: dro_dr1/DISTRUST.opus
+  - name: dro_dr1/Doors Open.opus
+  - name: dro_dr1/E-Handbook start up.opus
+  - name: dro_dr1/Flashing Anagram.opus
+  - name: dro_dr1/Goodbye Despair School.opus
+  - name: dro_dr1/Gym time with Monokuma.opus
+  - name: dro_dr1/Junk Food for a Dashing Youth.opus
+  - name: dro_dr1/Living to the Fullest.opus
+  - name: dro_dr1/M.T.B..opus
+  - name: dro_dr1/Momomomonokuma!.opus
+  - name: dro_dr1/Mono-Mono Machine!.opus
+  - name: dro_dr1/Motorcycle Death Cage.opus
+  - name: dro_dr1/Mr. Monokuma's Extracurricular Lesson.opus
+  - name: dro_dr1/Mr. Monokuma's Lesson.opus
+  - name: dro_dr1/New World Order.opus
+  - name: dro_dr1/Phase Results.opus
+  - name: dro_dr1/Present Get.opus
+  - name: dro_dr1/Punishment Rocket.opus
+  - name: dro_dr1/Rare Present Get.opus
+  - name: dro_dr1/Report Card Update.opus
+  - name: dro_dr1/Saisei -rebuild-.opus
+  - name: dro_dr1/Shovel Master.opus
+  - name: dro_dr1/SUPER FINAL M.T.B..opus
+  - name: dro_dr1/Super High School's Desperate Punishment.opus
+  - name: dro_dr1/SUPER M.T.B..opus
+  - name: dro_dr1/Supplementary Lessons for the Mysterious.opus
+  - name: dro_dr1/Supplementary Lessons for the Unlucky.opus
+  - name: dro_dr1/That Person Saw It!.opus
+  - name: dro_dr1/Thousand Knocks.opus
+  - name: dro_dr1/Trial Underground.opus
+  - name: dro_dr1/Versailles Burning at the Stake Witch Hunt Preparations.opus
+  - name: dro_dr1/Weekly Despair Magazine.opus
+  - name: dro_dr1/Welcome Despair School.opus
+- category: --Danganronpa 2--
+  songs:
+  - name: dro_dr2/A Dead End to the Ocean's Aroma.opus
+  - name: dro_dr2/All All Apologies [16bit].opus
+  - name: dro_dr2/Alter Ego of the New World.opus
+  - name: dro_dr2/ANAGRAM.NET.opus
+  - name: dro_dr2/Beautiful Days [Piano Arrangement].opus
+  - name: dro_dr2/Beautiful Ruin [16bit].opus
+  - name: dro_dr2/Beautiful Ruin [Summer Salt].opus
+  - name: dro_dr2/Beautiful Ruin.opus
+  - name: dro_dr2/Class Trial (Dawn Edition) - Volume Two.opus
+  - name: dro_dr2/Class Trial (Future Part) [With Intro].opus
+  - name: dro_dr2/Class Trial (Future Part).opus
+  - name: dro_dr2/Class Trial (Odd Edition).opus
+  - name: dro_dr2/Class Trial (Solar Edition) - Volume Two.opus
+  - name: dro_dr2/Class Trial (Turbulent Edition) - Volume Two.opus
+  - name: dro_dr2/DANGANRONPA SUPER MIX [2nd GIG].opus
+  - name: dro_dr2/DANGANRONPA SUPER MIX.opus
+  - name: dro_dr2/Deceived.opus
+  - name: dro_dr2/Desperate Mastermind Girl.opus
+  - name: dro_dr2/Discussion -B side-.opus
+  - name: dro_dr2/Discussion -BREAK- [2nd mix].opus
+  - name: dro_dr2/Discussion -HEAT UP- [2nd mix].opus
+  - name: dro_dr2/Discussion -HEAT UP- [8bit].opus
+  - name: dro_dr2/Discussion -HOPE VS DESPAIR- [2nd mix].opus
+  - name: dro_dr2/DIVE DRIVE.opus
+  - name: dro_dr2/DR2 Title Theme.opus
+  - name: dro_dr2/Ekoroshia [8bitbug].opus
+  - name: dro_dr2/Ekoroshia.opus
+  - name: dro_dr2/Fifth Island Theme.opus
+  - name: dro_dr2/GAME START.opus
+  - name: dro_dr2/Hope's Breaking Noise.opus
+  - name: dro_dr2/HYPER P.T.A..opus
+  - name: dro_dr2/HYPER ULTRA P.T.A..opus
+  - name: dro_dr2/I've Come to the Tropics!.opus
+  - name: dro_dr2/Ikoroshia [16bit].opus
+  - name: dro_dr2/Ikoroshia.opus
+  - name: dro_dr2/Justice For Our Prime Suspect!.opus
+  - name: dro_dr2/Let Us Sing of a Hollow Victory.opus
+  - name: dro_dr2/Love is Survival.opus
+  - name: dro_dr2/Machine Gun with Bunny Ears.opus
+  - name: dro_dr2/Master Monokuma's Special Class.opus
+  - name: dro_dr2/Monoclocktower.opus
+  - name: dro_dr2/Ms. Monomi's Practice Lesson.opus
+  - name: dro_dr2/Objection -CROSS SWORD-.opus
+  - name: dro_dr2/P.T.A..opus
+  - name: dro_dr2/Punishment feat. Dangan Island.opus
+  - name: dro_dr2/Punishment feat. Hell-icopter.opus
+  - name: dro_dr2/Punishment feat. Puppet Girl.opus
+  - name: dro_dr2/Punishment feat. Rocket Pants.opus
+  - name: dro_dr2/Punishment feat. The Arcade Rabbit.opus
+  - name: dro_dr2/Punishment feat. The Last Hike.opus
+  - name: dro_dr2/Ranked.opus
+  - name: dro_dr2/Received.opus
+  - name: dro_dr2/Searching the Twilight.opus
+  - name: dro_dr2/Sending This To You.opus
+  - name: dro_dr2/Setting Sail -departure- (Short Version).opus
+  - name: dro_dr2/Shukko -departure-.opus
+  - name: dro_dr2/Suguikoroshia.opus
+  - name: dro_dr2/The Day Before the Future.opus
+  - name: dro_dr2/The End of the Twilight.opus
+  - name: dro_dr2/The Truth Behind the Twilight.opus
+  - name: dro_dr2/Third Island Theme.opus
+  - name: dro_dr2/Tropical Despair.opus
+  - name: dro_dr2/Usamimimimi!.opus
+  - name: dro_dr2/Welcome to DANGAN IsLand!! [OP Ver].opus
+  - name: dro_dr2/Welcome to DANGAN Island!!.opus
+  - name: dro_dr2/Welcome, Monobeast.opus
+- category: --Danganronpa V3--
+  songs:
+  - name: dro_drv3/Almost Hell Heaven.opus
+  - name: dro_drv3/Battle with Despair.opus
+  - name: dro_drv3/Battle with Final Despair.opus
+  - name: dro_drv3/Battle with True Despair.opus
+  - name: dro_drv3/Beautiful Lie in ProgramWorld.opus
+  - name: dro_drv3/Beautiful Lie.opus
+  - name: dro_drv3/Becoming Friends.opus
+  - name: dro_drv3/Body Discovery A.opus
+  - name: dro_drv3/Body Discovery B.opus
+  - name: dro_drv3/Body Discovery C.opus
+  - name: dro_drv3/Body Discovery D.opus
+  - name: dro_drv3/Body Discovery E.opus
+  - name: dro_drv3/Brain Drive.opus
+  - name: dro_drv3/Bugs Panic.opus
+  - name: dro_drv3/Cave Ordeal.opus
+  - name: dro_drv3/Clair de Lune from Suite bergamasque.opus
+  - name: dro_drv3/Class Trial (Cosmic Edition).opus
+  - name: dro_drv3/Class Trial (Dawn Edition) - Volume Three.opus
+  - name: dro_drv3/Class Trial (Revival Edition) [With Intro].opus
+  - name: dro_drv3/Class Trial (Revival Edition).opus
+  - name: dro_drv3/Class Trial (Solar Edition) - Volume Three [With Intro].opus
+  - name: dro_drv3/Class Trial (Solar Edition) - Volume Three.opus
+  - name: dro_drv3/Climactic Reasoning V3.opus
+  - name: dro_drv3/Climactic Return V3.opus
+  - name: dro_drv3/Cool Morning.opus
+  - name: dro_drv3/Dangan Training Plan.opus
+  - name: dro_drv3/DANGANRONPA V3 [Loop].opus
+  - name: dro_drv3/DANGANRONPA V3.opus
+  - name: dro_drv3/DANVEGAS.opus
+  - name: dro_drv3/Darkness Time.opus
+  - name: dro_drv3/Despair Death Road.opus
+  - name: dro_drv3/Despair Searching in ProgramWorld.opus
+  - name: dro_drv3/Despair Searching.opus
+  - name: dro_drv3/Dig Here! Monosquirrel.opus
+  - name: dro_drv3/Disconnection -Break-.opus
+  - name: dro_drv3/Discussion -BREAK- [3rd mix].opus
+  - name: dro_drv3/Discussion -HEAT UP- [3rd mix].opus
+  - name: dro_drv3/Discussion -HOPE VS DESPAIR- [3rd mix].opus
+  - name: dro_drv3/Discussion -PANIC-.opus
+  - name: dro_drv3/Discussion -PERJURY-.opus
+  - name: dro_drv3/Discussion -SCRUM- [With Intro].opus
+  - name: dro_drv3/Discussion -SCRUM-.opus
+  - name: dro_drv3/DRV3 Title Theme.opus
+  - name: dro_drv3/DX Training Plan.opus
+  - name: dro_drv3/Everyone's Killing Graduation Ceremony.opus
+  - name: dro_drv3/Excavation Imagination.opus
+  - name: dro_drv3/EXISAL TRIBE.opus
+  - name: dro_drv3/FINAL T.A..opus
+  - name: dro_drv3/Finding Peace Party.opus
+  - name: dro_drv3/Good Bearning!.opus
+  - name: dro_drv3/Heartless Journey.opus
+  - name: dro_drv3/Hope Death Road.opus
+  - name: dro_drv3/Hope of Autumn.opus
+  - name: dro_drv3/Hope of Spring.opus
+  - name: dro_drv3/Hope of Summer.opus
+  - name: dro_drv3/Hope of Winter.opus
+  - name: dro_drv3/Hope Searching.opus
+  - name: dro_drv3/HYPER FINAL T.A..opus
+  - name: dro_drv3/HYPER NEW T.A. (Limited A).opus
+  - name: dro_drv3/HYPER NEW T.A. (Limited B).opus
+  - name: dro_drv3/HYPER NEW T.A. Arrange A.opus
+  - name: dro_drv3/HYPER NEW T.A. Arrange B.opus
+  - name: dro_drv3/HYPER NEW T.A..opus
+  - name: dro_drv3/HYPER ULTRA FINAL T.A..opus
+  - name: dro_drv3/HYPER ULTRA NEW T.A. (Limited A).opus
+  - name: dro_drv3/HYPER ULTRA NEW T.A. (Limited B).opus
+  - name: dro_drv3/HYPER ULTRA NEW T.A. Arrange A.opus
+  - name: dro_drv3/HYPER ULTRA NEW T.A. Arrange B.opus
+  - name: dro_drv3/HYPER ULTRA NEW T.A..opus
+  - name: dro_drv3/Island Ordeal.opus
+  - name: dro_drv3/Kagonoko.opus
+  - name: dro_drv3/Let's Get Killing Broadcast.opus
+  - name: dro_drv3/Let's Get Killing.opus
+  - name: dro_drv3/Living in Lazy Parallel World [With Intro].opus
+  - name: dro_drv3/Living in Lazy Parallel World.opus
+  - name: dro_drv3/Memory Flashlight.opus
+  - name: dro_drv3/Monomono Slots.opus
+  - name: dro_drv3/Moon on the Water.opus
+  - name: dro_drv3/Mr. Monokuma's Extracurricular Lesson V3.opus
+  - name: dro_drv3/Mr. Monokuma's Lesson V3.opus
+  - name: dro_drv3/Music Gallery v3.opus
+  - name: dro_drv3/NEW ANAGRAM.opus
+  - name: dro_drv3/New Classmate of the Dead.opus
+  - name: dro_drv3/NEW T.A. Arrange A.opus
+  - name: dro_drv3/NEW T.A. Arrange B.opus
+  - name: dro_drv3/NEW T.A..opus
+  - name: dro_drv3/New World Order V3.opus
+  - name: dro_drv3/Nightmare in the Locker.opus
+  - name: dro_drv3/Objection -CROSS SWORD- V3.opus
+  - name: dro_drv3/OUTLAW RUNNER.opus
+  - name: dro_drv3/REAL-FICTION.opus
+  - name: dro_drv3/Rise of the Ultimate.opus
+  - name: dro_drv3/SAKE NO TUKAMIDORI.opus
+  - name: dro_drv3/School Ordeal.opus
+  - name: dro_drv3/Season of Despair.opus
+  - name: dro_drv3/Sing of a Hollow Truth.opus
+  - name: dro_drv3/Spirit, Sentiment and Splendor.opus
+  - name: dro_drv3/Sudden Beautiful Lie.opus
+  - name: dro_drv3/Talent Select.opus
+  - name: dro_drv3/The Consequences of Truths and Lies.opus
+  - name: dro_drv3/The Destruction of the Gifted Inmates Academy.opus
+  - name: dro_drv3/The End of DNG.opus
+  - name: dro_drv3/The Flea Waltz.opus
+  - name: dro_drv3/The Monocubs Arrive.opus
+  - name: dro_drv3/The New Space Journey.opus
+  - name: dro_drv3/The Picture Scroll of Executions Past and Present.opus
+  - name: dro_drv3/The Thread of Anguish.opus
+  - name: dro_drv3/The Trial of Monokuma.opus
+  - name: dro_drv3/Transformations.opus
+  - name: dro_drv3/Trial END.opus
+  - name: dro_drv3/Trial Prepare.opus
+  - name: dro_drv3/Voting Slots.opus
+  - name: dro_drv3/Wonderful Story.opus
+- category: --Zero Escape 999--
+  songs:
+  - name: dro_ze999/9hours, 9persons, 9doors.opus
+  - name: dro_ze999/9years.opus
+  - name: dro_ze999/Binary Game.opus
+  - name: dro_ze999/Chill and Rigor.opus
+  - name: dro_ze999/Digital Root.opus
+  - name: dro_ze999/Eternitybox.opus
+  - name: dro_ze999/Extreme Extrication.opus
+  - name: dro_ze999/Foreboding.opus
+  - name: dro_ze999/Imaginary.opus
+  - name: dro_ze999/Morphogenetic Sorrow.opus
+  - name: dro_ze999/Nonary Game.opus
+  - name: dro_ze999/Octary Game.opus
+  - name: dro_ze999/Quaternary Game.opus
+  - name: dro_ze999/Quietus.opus
+  - name: dro_ze999/Quinary Game.opus
+  - name: dro_ze999/Recollection.opus
+  - name: dro_ze999/Riddle and Puzzle.opus
+  - name: dro_ze999/Senary Game.opus
+  - name: dro_ze999/Septenary Game.opus
+  - name: dro_ze999/Ternary Game.opus
+  - name: dro_ze999/Tinderbox.opus
+  - name: dro_ze999/Tranquility.opus
+  - name: dro_ze999/Trepidation.opus
+  - name: dro_ze999/Unary Game.opus
+  - name: dro_ze999/Who is Zero.opus
+- category: --Zero Escape Virtue's Last Reward--
+  songs:
+  - name: dro_zevlr/Ambidexterity.opus
+  - name: dro_zevlr/Annihilation.opus
+  - name: dro_zevlr/Biology.opus
+  - name: dro_zevlr/Biotope Remix.opus
+  - name: dro_zevlr/Biotope.opus
+  - name: dro_zevlr/Cabin.opus
+  - name: dro_zevlr/Data.opus
+  - name: dro_zevlr/Decompression.opus
+  - name: dro_zevlr/Director.opus
+  - name: dro_zevlr/Dispensary.opus
+  - name: dro_zevlr/Gaulem.opus
+  - name: dro_zevlr/Lounge.opus
+  - name: dro_zevlr/Monitor.opus
+  - name: dro_zevlr/Pantry.opus
+  - name: dro_zevlr/Q.opus
+  - name: dro_zevlr/Recreation.opus
+  - name: dro_zevlr/Treatment.opus
+  - name: dro_zevlr/Virtue's Last Reward.opus
