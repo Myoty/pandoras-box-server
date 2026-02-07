@@ -1,0 +1,1520 @@
+- area: DR ReLapse Hub
+  background: ReLapse/atrium
+  reachable_areas: Foyer, Dining Hall, Kitchen, Pantry, Study, Lower Landing, Living Quarters West, Living Quarters East, Theatre, Upper Landing, Jazz Club, Climbing Centre, Spa Lounge, Atrium, Elevator, Dorm Room 101, Dorm Room 102, Dorm Room 103, Dorm Room 104, Dorm Room 105, Dorm Room 106, Dorm Room 107, Dorm Room 108, Dorm Room 109, Dorm Room 110, Upper Lobby, Casino, Smokehouse Lounge, Garage, Art Gallery, Upper Living Quarters West, Upper Living Quarters East, Courtroom, Infirmary, Basement Landing, Multipurpose Hall West, Multipurpose Hall East, Trophy Room, Testing Chamber, Dorm Room 201, Dorm Room 202, Dorm Room 203, Dorm Room 204, Dorm Room 205, Dorm Room 206, Dorm Room 207, Dorm Room 208, Dorm Room 209, Dorm Room 210, Dorm Room 111, Dorm Room 112, Dorm Room 211, Dorm Room 212
+  default_description: 10 students find themselves trapped in a luxurious mansion and soon discover there is only one requirement for escape- to kill each other.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: Foyer, Dining Hall, Kitchen, Pantry, Study, Lower Landing, Living Quarters West, Living Quarters East, Theatre, Upper Landing, Jazz Club, Climbing Centre, Spa Lounge, Atrium, Elevator, Dorm Room 101, Dorm Room 102, Dorm Room 103, Dorm Room 104, Dorm Room 105, Dorm Room 106, Dorm Room 107, Dorm Room 108, Dorm Room 109, Dorm Room 110, Upper Lobby, Casino, Smokehouse Lounge, Garage, Art Gallery, Upper Living Quarters West, Upper Living Quarters East, Courtroom, Infirmary, Basement Landing, Multipurpose Hall West, Multipurpose Hall East, Trophy Room, Testing Chamber, Dorm Room 201, Dorm Room 202, Dorm Room 203, Dorm Room 204, Dorm Room 205, Dorm Room 206, Dorm Room 207, Dorm Room 208, Dorm Room 209, Dorm Room 210, Dorm Room 111, Dorm Room 112, Dorm Room 211, Dorm Room 212
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Foyer
+  background: ReLapse/foyer
+  background_tod: 
+    day: ReLapse/foyer
+    night: ReLapse/foyer_night
+    powerout: ReLapse/foyer_powerout
+  reachable_areas: DR ReLapse Hub, Dining Hall, Study, Lower Landing, Upper Landing, Basement Landing
+  scream_range: DR ReLapse Hub, Dining Hall, Study, Lower Landing, Upper Landing, Basement Landing
+  default_description: A grand sprawling foyer with a chandelier illuminated by a skylight.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dining Hall
+  background: ReLapse/dininghall
+  background_tod: 
+    day: ReLapse/dininghall
+    night: ReLapse/dininghall_night
+    powerout: ReLapse/dininghall_powerout
+  reachable_areas: DR ReLapse Hub, Foyer, Kitchen
+  scream_range: DR ReLapse Hub, Foyer, Kitchen, Pantry
+  default_description: An elegant dining room with ten seats positioned across a long table.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Kitchen
+  background: ReLapse/kitchen
+  background_tod: 
+    day: ReLapse/kitchen
+    night: ReLapse/kitchen_night
+    powerout: ReLapse/kitchen_powerout
+  reachable_areas: DR ReLapse Hub, Dining Hall, Pantry
+  scream_range: DR ReLapse Hub, Dining Hall, Pantry
+  default_description: A well-stocked kitchen full of high tech appliances and tools. Several signs warn against damaging the appliances.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Pantry
+  background: ReLapse/pantry
+  background_tod: 
+    day: ReLapse/pantry
+    night: ReLapse/pantry_night
+    powerout: ReLapse/pantry_powerout
+  reachable_areas: DR ReLapse Hub, Kitchen
+  scream_range: DR ReLapse Hub, Kitchen, Dining Hall
+  default_description: A massive walk-in pantry filled to the brim with enough ingredients and pre-made food to last for months.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Study
+  background: ReLapse/study
+  background_tod: 
+    day: ReLapse/study
+    night: ReLapse/study_night
+    powerout: ReLapse/study_powerout
+  reachable_areas: DR ReLapse Hub, Foyer
+  scream_range: DR ReLapse Hub, Foyer
+  default_description: An old-fashioned study full of books on world geography, philosophy, psychology, and physics.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lower Landing
+  background: ReLapse/floor1
+  background_tod: 
+    day: ReLapse/floor1
+    night: ReLapse/floor1_night
+    powerout: ReLapse/floor1_powerout
+  reachable_areas: DR ReLapse Hub, Foyer, Living Quarters West, Living Quarters East, Elevator, Theatre
+  scream_range: DR ReLapse Hub, Foyer, Living Quarters West, Living Quarters East, Theatre, Upper Landing
+  default_description: A joining area located beneath the sprawling foyer staircase. A sign states Rooms 101 through 105 are to the West while Rooms 106 through 110 are to the East
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Living Quarters West
+  background: ReLapse/hall
+  background_tod: 
+    day: ReLapse/hall
+    night: ReLapse/hall_night
+    powerout: ReLapse/hall_powerout
+  reachable_areas: DR ReLapse Hub, Lower Landing, Dorm Room 101, Dorm Room 102, Dorm Room 103, Dorm Room 104, Dorm Room 105
+  scream_range: DR ReLapse Hub, Lower Landing, Dorm Room 101, Dorm Room 102, Dorm Room 103, Dorm Room 104, Dorm Room 105, Living Quarters East, Foyer
+  default_description: A long dormitory hallway containing Dorm Rooms 101 through 105. Strange symbols are placed beside each door.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Living Quarters East
+  background: ReLapse/hallflip
+  background_tod: 
+    day: ReLapse/hallflip
+    night: ReLapse/hallflip_night
+    powerout: ReLapse/hallflip_powerout
+  reachable_areas: DR ReLapse Hub, Lower Landing, Dorm Room 106, Dorm Room 107, Dorm Room 108, Dorm Room 109, Dorm Room 110
+  scream_range: DR ReLapse Hub, Lower Landing, Dorm Room 106, Dorm Room 107, Dorm Room 108, Dorm Room 109, Dorm Room 110, Living Quarters West, Foyer
+  default_description: A long dormitory hallway containing Dorm Rooms 106 through 110. Strange symbols are placed beside each door.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Theatre
+  background: ReLapse/theatre
+  background_tod: 
+    day: ReLapse/theatre
+    night: ReLapse/theatre_night
+    powerout: ReLapse/theatre_powerout
+  reachable_areas: DR ReLapse Hub, Lower Landing
+  scream_range: DR ReLapse Hub, Lower Landing
+  default_description: A massive theatre for performances, with at least 50 velvet seats. Old props and set pieces lie behind the curtains.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Landing
+  background: ReLapse/floor2
+  background_tod: 
+    day: ReLapse/floor2
+    night: ReLapse/floor2_night
+    powerout: ReLapse/floor2_powerout
+  reachable_areas: DR ReLapse Hub, Foyer, Atrium, Spa Lounge, Climbing Centre, Jazz Club, Elevator
+  scream_range: DR ReLapse Hub, Foyer, Atrium, Climbing Centre
+  default_description: The joining area at the top of the foyer staircase. The Jazz Club is to the right while the climbing centre, atrium, and spa lounge are to the left.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Jazz Club
+  background: ReLapse/jazz
+  background_tod: 
+    day: ReLapse/jazz
+    night: ReLapse/jazz_night
+    powerout: ReLapse/jazz_powerout
+  reachable_areas: DR ReLapse Hub, Upper Landing
+  scream_range: DR ReLapse Hub
+  default_description: A fancy jazz club full of instruments and an unstocked bar. If one pays attention, they'll find the room is soundproofed.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Climbing Centre
+  background: ReLapse/climb
+  background_tod: 
+    day: ReLapse/climb
+    night: ReLapse/climb_night
+    powerout: ReLapse/climb_powerout
+  reachable_areas: DR ReLapse Hub, Upper Landing
+  scream_range: DR ReLapse Hub, Upper Landing, Atrium, Foyer
+  default_description: A large recreational center full of climbing walls that go to the high ceilings. Ropes and safety gear aree stored behind a desk near the front.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Spa Lounge
+  background: ReLapse/spa
+  background_tod: 
+    day: ReLapse/spa
+    night: ReLapse/spa_night
+    powerout: ReLapse/spa_powerout
+  reachable_areas: DR ReLapse Hub, Upper Landing
+  scream_range: DR ReLapse Hub
+  default_description: A small lounge with a hot spa at the rear. Towels are stored in racks. If one pays attention, they'll find the room is soundproofed.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Atrium
+  background: ReLapse/atrium
+  background_tod: 
+    day: ReLapse/atrium
+    night: ReLapse/atrium_night
+    powerout: ReLapse/atrium_powerout
+  reachable_areas: DR ReLapse Hub, Upper Landing, Upper Lobby
+  scream_range: DR ReLapse Hub, Upper Landing, Upper Lobby, Foyer
+  default_description: A large indoor atrium with a massive globe-like sculpture at its center and windows looking up at the sky above. Two twin staircases are located at the back, but are locked behind a gate.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Elevator
+  background: ReLapse/elevator_empty
+  background_tod: 
+    day: ReLapse/elevator_empty
+    night: ReLapse/elevator_empty
+    powerout: ReLapse/elevator_powerout
+  reachable_areas: DR ReLapse Hub, Lower Landing, Upper Landing, Upper Lobby, Basement Landing, Courtroom
+  scream_range: DR ReLapse Hub
+  default_description: An industrial style elevator with an open grate gate. It feels a bit claustrophobic when more than a couple people are inside at once.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 101
+  background: ReLapse/room
+  background_tod: 
+    day: ReLapse/room
+    night: ReLapse/room_night
+    powerout: ReLapse/room_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters West
+  scream_range: DR ReLapse Hub, Living Quarters West
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. The room is uncomfortably bare.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 102
+  background: ReLapse/room
+  background_tod: 
+    day: ReLapse/room
+    night: ReLapse/room_night
+    powerout: ReLapse/room_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters West
+  scream_range: DR ReLapse Hub, Living Quarters West
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A riding crop is on the desk.
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 103
+  background: ReLapse/room
+  background_tod: 
+    day: ReLapse/room
+    night: ReLapse/room_night
+    powerout: ReLapse/room_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters West
+  scream_range: DR ReLapse Hub, Living Quarters West
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A golfing bag with clubs is leaning against the wall.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 104
+  background: ReLapse/roomcl
+  background_tod: 
+    day: ReLapse/roomcl
+    night: ReLapse/room_night
+    powerout: ReLapse/room_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters West
+  scream_range: DR ReLapse Hub, Living Quarters West
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A romance novel with dog-eared pages is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 105
+  background: ReLapse/room
+  background_tod: 
+    day: ReLapse/room
+    night: ReLapse/room_night
+    powerout: ReLapse/room_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters West
+  scream_range: DR ReLapse Hub, Living Quarters West
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A pile of sheet music to various liberettos is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 106
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+    powerout: ReLapse/roompe_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters East
+  scream_range: DR ReLapse Hub, Living Quarters East
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. Spent film canisters and developing materials are on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 107
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+    powerout: ReLapse/roompe_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters East
+  scream_range: DR ReLapse Hub, Living Quarters East
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A number of brain teasers and puzzle cubes are on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 108
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+    powerout: ReLapse/roompe_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters East
+  scream_range: DR ReLapse Hub, Living Quarters East
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A strategic battle map is pinned to the wall.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 109
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+    powerout: ReLapse/roompe_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters East
+  scream_range: DR ReLapse Hub, Living Quarters East
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A bread box and some baking decorations are on the shelf.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 110
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+    powerout: ReLapse/roompe_powerout
+  reachable_areas: DR ReLapse Hub, Living Quarters East
+  scream_range: DR ReLapse Hub, Living Quarters East
+  default_description: A chic looking modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. Various clock gears and tweezers are sprawled all over the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Lobby
+  background: ReLapse/floor3
+  background_tod: 
+    day: ReLapse/floor3
+    night: ReLapse/floor3_night
+    powerout: ReLapse/floor3_powerout
+  reachable_areas: DR ReLapse Hub, Atrium, Upper Living Quarters West, Upper Living Quarters East, Casino, Smokehouse Lounge, Garage, Art Gallery, Elevator
+  scream_range: DR ReLapse Hub, Atrium, Upper Living Quarters West, Upper Living Quarters East, Casino, Smokehouse Lounge, Garage, Art Gallery
+  default_description: A hotel-like lobby with a bright skylight overlooking four double doors going in various directions.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Casino
+  background: ReLapse/casino
+  background_tod: 
+    day: ReLapse/casino
+    night: ReLapse/casino_night
+    powerout: ReLapse/casino_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Smokehouse Lounge
+  scream_range: DR ReLapse Hub, Upper Lobby, Smokehouse Lounge
+  default_description: A small casino with slot machines, a roulette wheel, and blackjack table. It smells like cigarette smoke. A large set of doors lead to the Smokehouse Lounge.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Smokehouse Lounge
+  background: ReLapse/slounge
+  background_tod: 
+    day: ReLapse/slounge
+    night: ReLapse/slounge_night
+    powerout: ReLapse/slounge_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Casino
+  scream_range: DR ReLapse Hub, Upper Lobby, Casino
+  default_description: A lounge with ashtrays at each table and an open bar. Unfortunately, upon searching, the liquor bottles are all filled with coloured water. Smells like cigarette smoke. A large set of doors lead to the Casino.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Garage
+  background: ReLapse/garage
+  background_tod: 
+    day: ReLapse/garage
+    night: ReLapse/garage_night
+    powerout: ReLapse/garage_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Art Gallery
+  scream_range: DR ReLapse Hub, Upper Lobby, Art Gallery
+  default_description: A fancy display garage for all sorts of cars. None of them seem to have keys or fuel in their tanks though. A large set of doors lead to the Art Gallery.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Art Gallery
+  background: ReLapse/gallery
+  background_tod: 
+    day: ReLapse/gallery
+    night: ReLapse/gallery_night
+    powerout: ReLapse/gallery_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Garage
+  scream_range: DR ReLapse Hub, Upper Lobby, Garage
+  default_description: A small art gallery full of paintings and sculptures, largely of an abstract variety. A large set of doors lead to the Garage.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Living Quarters West
+  background: ReLapse/hall
+  background_tod: 
+    day: ReLapse/hall
+    night: ReLapse/hall_night
+    powerout: ReLapse/hall_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Dorm Room 201, Dorm Room 202, Dorm Room 203, Dorm Room 204, Dorm Room 205
+  scream_range: DR ReLapse Hub, Upper Lobby, Dorm Room 201, Dorm Room 202, Dorm Room 203, Dorm Room 204, Dorm Room 205, Upper Living Quarters East
+  default_description: A long musty dormitory hallway containing Dorm Rooms 201 through 205. Strange symbols are placed beside each door that match those in dorm hallway downstairs.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Living Quarters East
+  background: ReLapse/hallflip
+  background_tod: 
+    day: ReLapse/hallflip
+    night: ReLapse/hallflip_night
+    powerout: ReLapse/hallflip_powerout
+  reachable_areas: DR ReLapse Hub, Upper Lobby, Dorm Room 206, Dorm Room 207, Dorm Room 208, Dorm Room 209, Dorm Room 210
+  scream_range: DR ReLapse Hub, Upper Lobby, Dorm Room 206, Dorm Room 207, Dorm Room 208, Dorm Room 209, Dorm Room 210, Upper Living Quarters West
+  default_description: A long musty dormitory hallway containing Dorm Rooms 206 through 210. Strange symbols are placed beside each door that match those in dorm hallway downstairs.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Courtroom
+  background: ReLapse/trialroom_ss
+  background_tod: 
+    day: ReLapse/trialroom_ss
+    night: ReLapse/trialroom_empty
+    powerout: ReLapse/trialroom_powerout
+  reachable_areas: DR ReLapse Hub, Elevator, Infirmary, Trial
+  scream_range: DR ReLapse Hub, Elevator, Infirmary, Trial
+  default_description: An open air courtroom located at the very top of the mansion. The walls are rather intimidating.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Trial
+  background: ReLapse/trialbg
+  background_tod: 
+    day: ReLapse/trialbg
+    night: ReLapse/trialbg
+    powerout: ReLapse/trailbg_powerout
+  reachable_areas: DR ReLapse Hub, Courtroom
+  scream_range: DR ReLapse Hub, Courtroom
+  default_description: Why are you looking at this? Pay attention to the trial.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Infirmary
+  background: ReLapse/infirmary
+  reachable_areas: DR ReLapse Hub, Courtroom, Elevator
+  scream_range: DR ReLapse Hub, Courtroom, Elevator
+  default_description: A high tech infirmary with strange pod-like resting bays. Everything here seems to be automated.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Basement Landing
+  background: ReLapse/floor0
+  background_tod: 
+    day: ReLapse/floor0
+    night: ReLapse/floor0_night
+  reachable_areas: DR ReLapse Hub, Foyer, Elevator, Multipurpose Hall East, Multipurpose Hall West, Trophy Room, Testing Chamber
+  scream_range: DR ReLapse Hub, Foyer, Multipurpose Hall East, Multipurpose Hall West, Trophy Room, Testing Chamber
+  default_description: A cold lobby area located below the foyer. The air is very still.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Multipurpose Hall West
+  background: ReLapse/hall
+  background_tod: 
+    day: ReLapse/hall
+    night: ReLapse/hall_night
+  reachable_areas: DR ReLapse Hub, Basement Landing
+  scream_range: DR ReLapse Hub, Basement Landing, Multipurpose Hall East
+  default_description: A decrepit dormitory hallway full of dust and cobwebs. None of the doors seem functional. The strange symbols by the doors match the two other dorm hallways.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Multipurpose Hall East
+  background: ReLapse/hallflip
+  background_tod: 
+    day: ReLapse/hallflip
+    night: ReLapse/hallflip_night
+  reachable_areas: DR ReLapse Hub, Basement Landing
+  scream_range: DR ReLapse Hub, Basement Landing, Multipurpose Hall West
+  default_description: A decrepit dormitory hallway full of dust and cobwebs. None of the doors seem functional. The strange symbols by the doors match the two other dorm hallways.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Trophy Room
+  background: ReLapse/trophy
+  background_tod: 
+    day: ReLapse/trophy
+    night: ReLapse/trophy_night
+  reachable_areas: DR ReLapse Hub, Basement Landing
+  scream_range: DR ReLapse Hub, Basement Landing, Multipurpose Hall West, Multipurpose Hall East
+  default_description: A lounge-like room full of taxidermied animals and insects as well as artificial foliage and a locked rack of shotguns.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Testing Chamber
+  background: ReLapse/testing
+  reachable_areas: DR ReLapse Hub, Basement Landing
+  scream_range: DR ReLapse Hub, Basement Landing, Multipurpose Hall West, Multipurpose Hall East
+  default_description: A high tech science lab full of viewports and pods similar to those in the infirmary. People are inside the pods, but it's hard to make out their faces.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 201
+  background: ReLapse/roomfs
+  background_tod: 
+    day: ReLapse/roomfs
+    night: ReLapse/roomfs_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters West
+  scream_range: DR ReLapse Hub, Upper Living Quarters West, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A stack of Rorscach ink prints are on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 202
+  background: ReLapse/roomfs
+  background_tod: 
+    day: ReLapse/roomfs
+    night: ReLapse/roomfs_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters West
+  scream_range: DR ReLapse Hub, Upper Living Quarters West, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A racecar helmet is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 203
+  background: ReLapse/roomfs
+  background_tod: 
+    day: ReLapse/roomfs
+    night: ReLapse/roomfs_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters West
+  scream_range: DR ReLapse Hub, Upper Living Quarters West, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A Michelin-Star Review brochure is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 204
+  background: ReLapse/roomfs
+  background_tod: 
+    day: ReLapse/roomfs
+    night: ReLapse/roomfs_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters West
+  scream_range: DR ReLapse Hub, Upper Living Quarters West, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A whole entire motorcycle with burn marks on it is propped in the room.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 205
+  background: ReLapse/roomfs
+  background_tod: 
+    day: ReLapse/roomfs
+    night: ReLapse/roomfs_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters West
+  scream_range: DR ReLapse Hub, Upper Living Quarters West, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A pair of scissors and some fashion magazines are on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 206
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters East
+  scream_range: DR ReLapse Hub, Upper Living Quarters East, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A book full of bird species is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 207
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters East
+  scream_range: DR ReLapse Hub, Upper Living Quarters East, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A book full of concept art sketches is on the table.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 208
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters East
+  scream_range: DR ReLapse Hub, Upper Living Quarters East, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. A polished rapier is mounted on the wall and a chessboard is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 209
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters East
+  scream_range: DR ReLapse Hub, Upper Living Quarters East, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. Several old almanacs are on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 210
+  background: ReLapse/roompe
+  background_tod: 
+    day: ReLapse/roompe
+    night: ReLapse/roompe_night
+  reachable_areas: DR ReLapse Hub, Upper Living Quarters East
+  scream_range: DR ReLapse Hub, Upper Living Quarters East, Upper Lobby
+  default_description: A chic looking, if a bit dusty, modern-style bedroom. There is a small bathroom attached with a toilet, shower, and sink. Radio broadcasting equipment is on the desk.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 111
+  background: ReLapse/room
+  reachable_areas: DR ReLapse Hub
+  scream_range: DR ReLapse Hub
+  default_description: You shouldn't be here.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 112
+  background: ReLapse/room
+  reachable_areas: DR ReLapse Hub
+  scream_range: DR ReLapse Hub
+  default_description: You shouldn't be here.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 211
+  background: ReLapse/room
+  reachable_areas: DR ReLapse Hub
+  scream_range: DR ReLapse Hub
+  default_description: You shouldn't be here.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Room 212
+  background: ReLapse/room
+  reachable_areas: DR ReLapse Hub
+  scream_range: DR ReLapse Hub
+  default_description: You shouldn't be here.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Backrooms
+  background: ReLapse/backrooms
+  reachable_areas: DR ReLapse Hub
+  scream_range: DR ReLapse Hub
+  default_description: Where... are you...?
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
