@@ -1,0 +1,1266 @@
+- area: Rigor Mortis Hub
+  background: RigMor/hub
+  reachable_areas: Lobby, Firepit, Clinic, Gym, Grand Staircase, Dining Room, Kitchen, Study, Shed, Chapel, Game Room, Shooting Range, Tavern, Workshop, Forensics Lab, All-Purpose Room, Film Studio, Library, Archive Room, Art Studio, Attic, Hot Spring, Upper Staircase North, Upper Staircase South, Lodging Hallway North, Lodging Hallway South, Ground Floor Hallway East, Ground Floor Hallway West, Lower Staircase, Aries Suite, Taurus Suite, Cancer Suite, Virgo Suite, Libra Suite, Scorpius Suite, Aquarius Suite, Pisces Suite, Gemini Suite, Capricornus Suite, Sagittarius Suite, Leo Suite, Ophiuchus Suite, Orion Suite, Cassiopeia Suite, Vulpecula Suite, Hidden Staircase, Courtroom of the Damned, Crypt
+  default_description: As a relentless snowstorm descends on the remote Roseland Lodge nestled in the heart of Mt. Rainier, you find yourself among a diverse group of guests, all cut off from the outside world and forced to weather the storm together.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lobby
+  background: RigMor/lobby
+  background_tod: 
+    day: RigMor/lobby
+    night: RigMor/lobby_night
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway East, Ground Floor Hallway West, Firepit, Grand Staircase, Clinic, Gym
+  scream_range: Dining Room, Kitchen, Study, Game Room, Lodging Hallway North, Lodging Hallway South, Ground Floor Hallway East, Ground Floor Hallway West, Firepit, Grand Staircase
+  default_description: The main lobby of the Roseland Lodge. This is the first part of the lodge most everyone sees and gently invites one to relax and take it easy.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Firepit
+  background: RigMor/firepit
+  background_tod: 
+    day: RigMor/firepit
+    night: RigMor/firepit_night
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway East, Ground Floor Hallway West, Lobby
+  scream_range: Dining Room, Kitchen, Study, Game Room, Lodging Hallway North, Lodging Hallway South, Ground Floor Hallway East, Ground Floor Hallway West, Lobby, Grand Staircase
+  default_description: A firepit just off the main lobby that's descended a bit into the foundation in order to make it a proper lounge space.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Clinic
+  background: RigMor/trueclinic
+  background_tod: 
+    day: RigMor/clinic
+    night: RigMor/clinic_night
+  reachable_areas: Rigor Mortis Hub, Lobby, Gym
+  scream_range: Firepit, Lobby, Grand Staircase, Gym
+  default_description: A small clinic just off the main lobby intended from preliminary care until the injured can be brought to a more established hospital.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Gym
+  background: RigMor/truegym
+  background_tod: 
+    day: RigMor/gym
+    night: RigMor/gym_night
+  reachable_areas: Rigor Mortis Hub, Lobby, Clinic
+  scream_range: Firepit, Lobby, Grand Staircase, Clinic
+  default_description: A fairly sizable gyms full of aerobic workout equipment, weight machines, and even a small boxing ring. A door to the Clinic is located off the side.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Grand Staircase
+  background: RigMor/staircasegrand
+  background_tod: 
+    day: RigMor/staircasegrand
+    night: RigMor/staircasegrand_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North, Lodging Hallway South, Lobby, Hidden Staircase
+  scream_range: Dining Room, Kitchen, Study, Game Room, Lodging Hallway North, Lodging Hallway South, Ground Floor Hallway East, Ground Floor Hallway West, Lobby, Firepit
+  default_description: The main lobby of the Roseland Lodge. This is the first part of the lodge most everyone sees and gently invites one to relax and take it easy.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dining Room
+  background: RigMor/diningroom
+  background_tod: 
+    day: RigMor/diningroom
+    night: RigMor/diningroom_night
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway East
+  scream_range: Ground Floor Hallway East, Kitchen, Lobby, Grand Staircase, Firepit
+  default_description: A humble dining area with wooden tables and an open atmosphere to it.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Chapel
+  background: RigMor/truechapel
+  background_tod: 
+    day: RigMor/chapel
+    night: RigMor/chapel_night
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway East
+  scream_range: Ground Floor Hallway East, Kitchen, Lobby, Grand Staircase, Firepit
+  default_description: A small religious chapel available for congregations. There isn't much here in the way of supplies, but there's enough for an improptu sermon.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Kitchen
+  background: RigMor/kitchen
+  background_tod: 
+    day: RigMor/kitchen
+    night: RigMor/kitchen_night
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway East, Shed
+  scream_range: Ground Floor Hallway East, Shed, Dining Room, Lobby, Grand Staircase, Firepit
+  default_description: A rustic kitchen full of all kinds of pots, pans, and food supplies for weary travelers.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Game Room
+  background: RigMor/gameroom
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway West, Lower Staircase
+  scream_range: Ground Floor Hallway West, Study, Lobby, Grand Staircase, Firepit
+  default_description: Clearly the newest addition to the Lodge, the game room is a modern hangout space with a pool table, darts, and a Wii and PS3 hooked up to a flat-screen TV.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Shooting Range
+  background: RigMor/trueshootingrange
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway West
+  scream_range: Ground Floor Hallway West
+  default_description: A long concrete room with openings facing a long empty space with targets at the end. It seems built for use with both firearms and archery equipment. There is however no firearms or bows present, just targets. The room seems to be soundproofed.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Hot Spring
+  background: RigMor/truehotspring
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway West
+  scream_range: Ground Floor Hallway West
+  default_description: The former Hot Spring is now some sort of atelier filled with half-finished dolls and mechanical contraptions. Eerily, the dolls eyes torn to follow you as you move about the room.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Study
+  background: RigMor/truestudy
+  reachable_areas: Rigor Mortis Hub, Ground Floor Hallway West
+  scream_range: Ground Floor Hallway West, Game Room, Lobby, Grand Staircase, Firepit
+  default_description: A warm study with a fireplace and plenty of reading material available on hand.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Shed
+  background: RigMor/trueshed
+  reachable_areas: Rigor Mortis Hub, Kitchen
+  scream_range: Kitchen
+  default_description: Upon stepping into where the Shed once was, you suddenly find yourself underwater. Despite that, you seem to be able to breath just fine. Ahead, a shipwreck lies beached amidst the rocks, a library of instruments and strange books filled with dots made within it's broken hull.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Ground Floor Hallway East
+  background: RigMor/hallwaya
+  background_tod: 
+    day: RigMor/hallwaya
+    night: RigMor/hallwaya_night
+  reachable_areas: Rigor Mortis Hub, Kitchen, Dining Room, Lobby, Chapel
+  scream_range: Kitchen, Dining Room, Lobby, Lodging Hallway North, Lodging Hallway South, Grand Staircase, Firepit
+  default_description: A long hallway joining the Kitchen and Dining Room to the Lobby.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Ground Floor Hallway West
+  background: RigMor/hallwayc
+  background_tod: 
+    day: RigMor/hallwayc
+    night: RigMor/hallwayc_night
+  reachable_areas: Rigor Mortis Hub, Game Room, Study, Lobby, Shooting Range, Hot Spring
+  scream_range: Game Room, Study, Lobby, Grand Staircase, Firepit
+  default_description: A long hallways joining the Study and Game Room to the Lobby.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lower Staircase
+  background: RigMor/staircaselower
+  background_tod: 
+    day: RigMor/staircaselower
+    night: RigMor/staircaselower_night
+  reachable_areas: Rigor Mortis Hub, Game Room, Tavern, Workshop, Forensics Lab
+  scream_range: Game Room, Ground Floor Hallway West, Tavern, Workshop, Forensics Lab
+  default_description: A staircase located at the back of the Game Room leading down to the basement.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Tavern
+  background: RigMor/truetavern
+  reachable_areas: Rigor Mortis Hub, Lower Staircase, Workshop
+  scream_range: Lower Staircase, Game Room, Workshop
+  default_description: The Tavern is now some sort of witch's den, filled with strange potions and oddities. A large cauldron bubbles in the center of the room, and the smell of herbs fills the air.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Workshop
+  background: RigMor/trueworkshop
+  reachable_areas: Rigor Mortis Hub, Tavern, Lower Staircase, Forensics Lab
+  scream_range: Tavern, Lower Staircase, Game Room
+  default_description: A largely abandoned carpentry workshop present in the basement, likely from before Roseland Lodge became a hotel.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Forensics Lab
+  background: RigMor/trueforensicslab
+  reachable_areas: Rigor Mortis Hub, Workshop, Lower Staircase
+  scream_range: Tavern, Lower Staircase, Game Room, Workshop
+  default_description: An underground research lab which seems to have tools in order to perform autopsy and even a working morgue. What is this doing here???
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lodging Hallway North
+  background: RigMor/hallwayb
+  background_tod: 
+    day: RigMor/hallwayb
+    night: RigMor/hallwayb_night
+  reachable_areas: Rigor Mortis Hub, Grand Staircase, Aries Suite, Taurus Suite, Gemini Suite, Cancer Suite, Leo Suite, Virgo Suite, All-Purpose Room
+  scream_range: Aries Suite, Taurus Suite, Gemini Suite, Cancer Suite, Leo Suite, Virgo Suite, All-Purpose Room, Lobby, Ground Floor Hallway West, Ground Floor Hallway East, Upper Staircase North, Grand Staircase, Firepit
+  default_description: A railed hallway overlooking the lobby on one end and providing doors to the guest rooms on the other. The All-Purpose Room is at the end of it.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lodging Hallway South
+  background: RigMor/hallwayb
+  background_tod: 
+    day: RigMor/hallwayb
+    night: RigMor/hallwayb_night
+  reachable_areas: Rigor Mortis Hub, Grand Staircase, Libra Suite, Scorpius Suite, Capricornus Suite, Pisces Suite, Aquarius Suite, Sagittarius Suite, Library
+  scream_range: Libra Suite, Scorpius Suite, Capricornus Suite, Pisces Suite, Aquarius Suite, Sagittarius Suite, Library, Lobby, Archive Room, Ground Floor Hallway West, Ground Floor Hallway East, Grand Staircase, Firepit
+  default_description: A railed hallway overlooking the lobby on one end and providing doors to the guest rooms on the other. The Library is at the end of it.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Library
+  background: RigMor/truelibrary
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South, Archive Room
+  scream_range: Lodging Hallway South, Upper Staircase South, Archive Room, Libra Suite, Scorpius Suite, Sagittarius Suite
+  default_description: What was once the Library is now a giant magical furnace sweltering in heat. Tools lie hung up on the walls with purposes one could only guess. Nests lie within the furnaces themselves, seemingly impervious to the fire around them.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: Rigor Mortis Hub, Lodging Hallway South, Archive Room, Art Studio
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Art Studio
+  background: RigMor/burntstudio
+  reachable_areas: Rigor Mortis Hub, Library
+  scream_range: Lodging Hallway South, Upper Staircase South, Archive Room, Library, Libra Suite, Scorpius Suite, Sagittarius Suite
+  default_description: This place has seen better days. What a shame it had to go.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Secret Lab
+  background: RigMor/secretlab
+  reachable_areas: Rigor Mortis Hub, Art Studio
+  scream_range: Art Studio
+  default_description: A bizarre futuristic laboratory filled with technology well beyond what is possible. Specimens float in the tubes in here, all of which... Look like Hououin.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Archive Room
+  background: RigMor/truearchive
+  reachable_areas: Rigor Mortis Hub, Library, Upper Staircase South
+  scream_range: Library, Upper Staircase South, Attic, Lodging Hallway South
+  default_description: The Archive room has been replaced with some manner of arcane library, filled with tomes and scrolls of various kinds describing creatures of Shoggoth and the now lost world of magic.
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: All-Purpose Room
+  background: RigMor/trueallpurpose
+  background_tod: 
+    day: RigMor/allpurpose
+    night: RigMor/allpurpose_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North, Upper Staircase North, Film Studio
+  scream_range: Lodging Hallway North, Upper Staircase North, Attic, Aries Suite, Taurus Suite, Gemini Suite
+  default_description: A wide open room with chairs and tables stacked against the sides, intended for hosted gatherings.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Film Studio
+  background: RigMor/truefilmstudio
+  reachable_areas: Rigor Mortis Hub, All-Purpose Room
+  scream_range: Lodging Hallway North, Upper Staircase North, All-Purpose Room, Attic, Aries Suite, Taurus Suite, Gemini Suite
+  default_description: What was once the Film Studio has changed to that of a technological shrine familiar to a fair few of the Lodge's visitors. A metal torii gate looms amidst steel trees and sealing scrolls placed on a stone kitsune statue.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Staircase North
+  background: RigMor/staircaseupper
+  background_tod: 
+    day: RigMor/staircaseupper
+    night: RigMor/staircaseupper_night
+  reachable_areas: Rigor Mortis Hub, All-Purpose Room, Attic
+  scream_range: All-Purpose Room, Attic, Cassiopeia Suite, Orion Suite, Ophiuchus Suite
+  default_description: An isolated staircase behind the All-Purpose Room leading up the Lodge's Attic. It... looks like it's seen better days.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Upper Staircase South
+  background: RigMor/staircaseupper
+  background_tod: 
+    day: RigMor/staircaseupper
+    night: RigMor/staircaseupper_night
+  reachable_areas: Rigor Mortis Hub, Archive Room, Attic
+  scream_range: Archive Room, Library, Attic, Cassiopeia Suite, Orion Suite, Ophiuchus Suite
+  default_description: An isolated staircase behind the Archive Room leading up to the Lodge's Attic. It... Looks like it's seen better days.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Attic
+  background: RigMor/trueattic
+  reachable_areas: Rigor Mortis Hub, Upper Staircase North, Upper Staircase South, Cassiopeia Suite, Orion Suite, Ophiuchus Suite
+  scream_range: Upper Staircase North, Upper Staircase South, Cassiopeia Suite, Orion Suite, Ophiuchus Suite, Archive Room, All-Purpose Room
+  default_description:  The Attic has been turned into what appears to be some sort of hellish ruin. Strange symbols mark the achitecture, and rivers of lava make navigation borderline impossible.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Aries Suite
+  background: RigMor/aries
+  background_tod: 
+    day: RigMor/aries
+    night: RigMor/aries_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Taurus Suite, Gemini Suite, All-Purpose Room
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Taurus Suite
+  background: RigMor/taurus
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Aries Suite, Gemini Suite, Cancer Suite, All-Purpose Room 
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Gemini Suite
+  background: RigMor/gemini
+  background_tod: 
+    day: RigMor/gemini
+    night: RigMor/gemini_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Aries Suite, Taurus Suite, Cancer Suite, Leo Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cancer Suite
+  background: RigMor/cancer
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Gemini Suite, Taurus Suite, Leo Suite, Virgo Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Leo Suite
+  background: RigMor/leo
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Gemini Suite, Cancer Suite, Virgo Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Virgo Suite
+  background: RigMor/virgo
+  background_tod: 
+    day: RigMor/virgo
+    night: RigMor/virgo_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway North
+  scream_range: Lodging Hallway North, Lobby, Grand Staircase, Firepit, Cancer Suite, Leo Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Libra Suite
+  background: RigMor/libra
+  background_tod: 
+    day: RigMor/libra
+    night: RigMor/libra_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Library, Archive Room, Scorpius Suite, Sagittarius Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Scorpius Suite
+  background: RigMor/scorpio
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Library, Libra Suite, Sagittarius Suite, Capricornus Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Sagittarius Suite
+  background: RigMor/sagittarius
+  background_tod: 
+    day: RigMor/sagittarius
+    night: RigMor/sagittarius_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Libra Suite, Scorpius Suite, Capricornus Suite, Aquarius Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Capricornus Suite
+  background: RigMor/capricorn
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Scorpius Suite, Sagittarius Suite, Aquarius Suite, Pisces Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Aquarius Suite
+  background: RigMor/aquarius
+  background_tod: 
+    day: RigMor/aquarius
+    night: RigMor/aquarius_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Capricornus Suite, Sagittarius Suite, Pisces Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Pisces Suite
+  background: RigMor/pisces
+  background_tod: 
+    day: RigMor/pisces
+    night: RigMor/pisces_night
+  reachable_areas: Rigor Mortis Hub, Lodging Hallway South
+  scream_range: Lodging Hallway South, Lobby, Grand Staircase, Firepit, Capricornus Suite, Aquarius Suite
+  default_description: One of the Lodge's fifteen guest rooms. A cozy queen mattress is provided as well as comfortable roomy bathroom and wardrobe.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cassiopeia Suite
+  background: RigMor/cassiopeia
+  reachable_areas: Rigor Mortis Hub, Attic
+  scream_range: Attic, Upper Staircase North, Upper Staircase South
+  default_description: This very bare bedroom at least has a nice bay window looking at the mountain range.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Ophiuchus Suite
+  background: RigMor/ophiuchus
+  reachable_areas: Rigor Mortis Hub, Attic
+  scream_range: Attic, Upper Staircase North, Upper Staircase South
+  default_description: This room looks more at place in a college dormroom in Japan than a high class lodge...
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Orion Suite
+  background: RigMor/orion
+  reachable_areas: Rigor Mortis Hub, Attic
+  scream_range: Attic, Upper Staircase North, Upper Staircase South
+  default_description: ... Why is there a children's playplace in here...?
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Vulpecula Suite
+  background: RigMor/vulpecula
+  reachable_areas: Rigor Mortis Hub, Attic
+  scream_range: Attic, Upper Staircase North, Upper Staircase South
+  default_description: This staff room is... incredibly cramped and what little space there is seems to have been filled with all manner of plants.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Hidden Staircase
+  background: RigMor/staircasehidden
+  reachable_areas: Rigor Mortis Hub, Grand Staircase, Courtroom of the Damned, Crypt
+  scream_range: Lobby, Grand Staircase, Firepit, Courtroom of the Damned, Crypt
+  default_description: A gothic staircase hidden beneath the Lodge's lobby. It's clear guests are not supposed to be here.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Courtroom of the Damned
+  background: RigMor/exorcismroom
+  reachable_areas: Rigor Mortis Hub, Hidden Staircase
+  scream_range: Hidden Staircase, Courtroom of the Damned, Crypt
+  default_description: A disturbing chamber full of scrawlings and occult symbols relating to nature and the balance of the earth.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Crypt
+  background: RigMor/crypt
+  reachable_areas: Rigor Mortis Hub, Hidden Staircase
+  scream_range: Hidden Staircase, Courtroom of the Damned
+  default_description: An ancient and forgotten crypt full of people who's names have been lost to time.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
