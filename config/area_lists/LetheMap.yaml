@@ -1,0 +1,1563 @@
+- area: Lethean Academy Hub
+  background: LetheMap/hub
+  reachable_areas: Main Hall, West Wing, East Wing, North Wing, Courtyard, Dorm Skybridge, Dorm Corridor, Poirot Hall, Wayne Hall, Columbo Hall, Zenigata Hall, Shirogane Hall, Tracy Hall, Diaz Hall, Drew Hall, Locker Room, Pool, Gym, Laundry Room, Cafeteria, Kitchen, Forensics Lab, Medical Lab, Applied Sciences Lab, Anomaly Lab, Paranormal Containment, Psych Lab, Cyberlab, Simulation Room, Conspiracy Lab, Criminology Archive, Lecture Hall, Library 1st Floor, Library 2nd Floor, Archive, Restroom, West Stairwell, East Stairwell, Central Corridor, Faculty Wing, Admin Wing, Faculty Lounge, Meeting Room, Storage Room, Headmaster's Office, Secretarial Antechamber, School Records Room, Garden Path, Garden Park, Outdoor Swing, Greenhouse (Outdoors), Greenhouse (Indoors), Cabin (Outdoors)
+  default_description: TBA
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: true
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Main Hall
+  background: LetheMap/main
+  background_tod: 
+    day: LetheMap/main
+    evening: LetheMap/main_eve
+    night: LetheMap/main_night
+  reachable_areas: East Wing, West Wing, North Wing, Dorm Skybridge, West Stairwell, East Stairwell, Garden Path
+  scream_range: <REACHABLE_AREAS>
+  default_description: The start of a bright education and the end of it. There are paths going in every direction, and is often home to a lot of traffic.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: East Wing
+  background: LetheMap/east
+  background_tod: 
+    day: LetheMap/east
+    evening: LetheMap/east_eve
+    night: LetheMap/east_night
+  reachable_areas: Main Hall, Psych Lab, Cyberlab, Simulation Room, Conspiracy Lab, Criminology Archive, East Stairwell
+  scream_range: <REACHABLE_AREAS>
+  default_description: We Feast in the East. Home to the humanities facilities of the Academy.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: West Wing
+  background: LetheMap/west
+  background_tod: 
+    day: LetheMap/west
+    evening: LetheMap/west_eve
+    night: LetheMap/west_night
+  reachable_areas: Main Hall, Forensics Lab, Medical Lab, Applied Sciences Lab, Anomaly Lab, Paranormal Containment, West Stairwell
+  scream_range: <REACHABLE_AREAS>
+  default_description: The Best's in the West. Home to the analytical labs of the Academy.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: North Wing
+  background: LetheMap/north
+  background_tod: 
+    day: LetheMap/north
+    evening: LetheMap/north_eve
+    night: LetheMap/north_night
+  reachable_areas: Main Hall, Lecture Hall, Library, West Stairwell, East Stairwell, Restroom
+  scream_range: <REACHABLE_AREAS>
+  default_description: Step Forth in the North. Home to the Academy's auxilary facilities.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Courtyard
+  background: LetheMap/courtyard
+  background_tod:
+    day: LetheMap/courtyard
+    evening: LetheMap/courtyard_eve
+    night: LetheMap/courtyard_night
+  reachable_areas: Main Hall, Greenhouse (Outdoors), Dorm Corridor, Garden Park
+  scream_range: <REACHABLE_AREAS>
+  default_description: Step Forth in the North. Home to the Academy's auxilary facilities.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Skybridge
+  background: LetheMap/sky
+  background_tod: 
+    day: LetheMap/sky
+    evening: LetheMap/sky_eve
+    night: LetheMap/sky_night
+  reachable_areas: Main Hall, Dorm Corridor, Cafeteria, Locker Room, Garden Path
+  scream_range: <REACHABLE_AREAS>
+  default_description: It's a bridge, crossing the campus, with a beautiful look at the world outside.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Dorm Corridor
+  background: LetheMap/dormhall
+  reachable_areas: Dorm Skybridge, Locker Room, Laundry Room, Poirot Hall, Wayne Hall, Columbo Hall, Zenigata Hall, Holmes Hall, Shirogane Hall, Tracy Hall, Diaz Hall, Drew Hall, Queen Hall
+  scream_range: <REACHABLE_AREAS>
+  default_description: The Dormiest Corridor.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Poirot Hall
+  background: LetheMap/poirot
+  background_tod: 
+    day: LetheMap/poirot
+    evening: LetheMap/poirot_eve
+    night: LetheMap/poirot_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: Ordered and methodical, this room is immaculate, and would give even the most diligent maid a run for their money.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Wayne Hall
+  background: LetheMap/wayne
+  background_tod: 
+    day: LetheMap/wayne
+    evening: LetheMap/wayne_eve
+    night: LetheMap/wayne_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: Dark and reclusive, there's cabinets worth of space to keep documents on anything at all, and three different maps for how to escape in case of a fire.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Columbo Hall
+  background: LetheMap/columbo
+  background_tod: 
+    day: LetheMap/columbo
+    evening: LetheMap/columbo_eve
+    night: LetheMap/columbo_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: There's not much to it. Nifty. But, every time you turn to leave, you're sure there's one more question to ask yourself.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Zenigata Hall
+  background: LetheMap/zeni
+  background_tod: 
+    day: LetheMap/zeni
+    evening: LetheMap/zeni_eve
+    night: LetheMap/zeni_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: This place was made for big thumbtack boards full of connecting information. You could even fail to catch a great thief with this kind of space.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Shirogane Hall
+  background: LetheMap/shiro
+  background_tod: 
+    day: LetheMap/shiro
+    evening: LetheMap/shiro_eve
+    night: LetheMap/shiro_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: This room is minimal but detailed, set for a good investigation, but without a lot of the regular comforts. There's a vanity mirror too, though the glass is cracked.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Tracy Hall
+  background: LetheMap/tracy
+  background_tod: 
+    day: LetheMap/tracy
+    evening: LetheMap/tracy_eve
+    night: LetheMap/tracy_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: A hat stand for a fedora, and a window that always seems wet from the rain. Truly the epitome of the noir.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Diaz Hall
+  background: LetheMap/diaz
+  background_tod: 
+    day: LetheMap/diaz
+    evening: LetheMap/diaz_eve
+    night: LetheMap/diaz_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: For some reason you'd expect this room to be dark with a closet full of weapons and leather jackets. Instead you find a lovingly decorated room with a vase of lemons to give it that pop of color. And yes, of course there's an axe. What kind of dorm doesn't have an axe?
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Drew Hall
+  background: LetheMap/drew
+  background_tod: 
+    day: LetheMap/drew
+    evening: LetheMap/drew_eve
+    night: LetheMap/drew_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: Honestly, nothing about this really screams 'detective'. This is just a regular room. Though it feels like, if you leave, you might just stumble into the next great mystery.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Holmes Hall
+  background: LetheMap/holmes
+  background_tod: 
+    day: LetheMap/holmes
+    evening: LetheMap/holmes_eve
+    night: LetheMap/holmes_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: Notes and papers from the previous occupant's many cases dot every surface, and hiding among the refuge, a gorgeous violin. His mind, you figure, rebelled at stagnation.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Queen Hall
+  background: LetheMap/queen
+  background_tod: 
+    day: LetheMap/queen
+    evening: LetheMap/queen_eve
+    night: LetheMap/queen_night
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: The room screams culture and refinement yet everything about it is completely practical. There's plenty of books and a dedicated space for writing.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Locker Room
+  background: LetheMap/lockers
+  background_tod: 
+    day: LetheMap/lockers
+    evening: LetheMap/lockers_eve
+    night: LetheMap/lockers_night
+  reachable_areas: Dorm Skybridge, Dorm Corridor, Pool, Gym
+  scream_range: <REACHABLE_AREAS>
+  default_description: Organized, though the smell of B.O. permeates. Lockers line the walls with private changing spaces for the students. It's not unpleasant, but one wouldn't linger on a field day.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Pool
+  background: LetheMap/pool
+  background_tod: 
+    day: LetheMap/pool
+    evening: LetheMap/pool_eve
+    night: LetheMap/pool_night
+  reachable_areas: Locker Room, Gym
+  scream_range: <REACHABLE_AREAS>
+  default_description: A gorgeous and detailed space with personal showers, decorative columns, a garden, archways... Like something out of a long-lost adventure novel.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Gym
+  background: LetheMap/gym
+  background_tod: 
+    day: LetheMap/gym
+    evening: LetheMap/gym_eve
+    night: LetheMap/gym_night
+  reachable_areas: Locker Room, Pool
+  scream_range: <REACHABLE_AREAS>
+  default_description: A basketball hoop, bleachers, and a lot of space. Somehow even the visual of it is really loud, and full of squeaking sneakers.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Laundry Room
+  background: LetheMap/laundry
+  reachable_areas: Dorm Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: A host of laundry machines and baskets to wheel them around the school. On more well-populated occasions, this place would probably be bustling with activity.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cafeteria
+  background: LetheMap/cafe
+  background_tod: 
+    day: LetheMap/cafe
+    evening: LetheMap/cafe_eve
+    night: LetheMap/cafe_night
+  reachable_areas: Dorm Skybridge, Kitchen
+  scream_range: <REACHABLE_AREAS>
+  default_description: Rows and rows of tables. Large floor-to-ceiling windows let dismal light in, but it's clear this place was as lively once as you'd expect.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Kitchen
+  background: LetheMap/kitchen
+  background_tod: 
+    day: LetheMap/kitchen
+    evening: LetheMap/kitchen_eve
+    night: LetheMap/kitchen_night
+  reachable_areas: Cafeteria
+  scream_range: <REACHABLE_AREAS>
+  default_description: Pots and pans, even ovens and a microwave for pöpcørn. Handily stocked with utensils, too!
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Forensics Lab
+  background: LetheMap/forensics
+  reachable_areas: West Wing, Medical Lab
+  scream_range: <REACHABLE_AREAS>
+  default_description: Full of a mix of filing cabinets, chemistry equipment, and a sterile cleanliness. There is a door in here that morbidly connects directly to Med Lab
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Medical Lab
+  background: LetheMap/med
+  reachable_areas: West Wing, Forensics Lab
+  scream_range: <REACHABLE_AREAS>
+  default_description: An operating table and a host of medicines. Not as clean as a hospital, but furnished enough for most basic injuries. You don't want to know why there's a direct doorway to the Forensics Lab.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Applied Sciences Lab
+  background: LetheMap/appsci
+  background_tod: 
+    day: LetheMap/appsci
+    evening: LetheMap/appsci_eve
+    night: LetheMap/appsci_night
+  reachable_areas: West Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: A room well-lit by the windows, with different experiments set up. There's a bowling ball on a pendulum hanging from the ceiling, chemistry stations, and cages for poisonous creatures in the back.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Anomaly Lab
+  background: LetheMap/anomaly
+  reachable_areas: West Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: While at a glance this room appears somewhat normal, it quickly falls apart under scrutiny. The numbers on the clock are vague imitations of numbers, hallways betray the laws of space, and something about this place doesn't feel human.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Paranormal Containment
+  background: LetheMap/paranormal
+  reachable_areas: West Wing, West Stairwell
+  scream_range: <REACHABLE_AREAS>
+  default_description: The room is built inside of a faraday cage and has a bullet-proof glass cell that, you hope, is empty.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Psych Lab
+  background: LetheMap/psych
+  background_tod: 
+    day: LetheMap/psych
+    evening: LetheMap/psych_eve
+    night: LetheMap/psych_night
+  reachable_areas: East Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: There is a model of a brain, relaxed room for interviews and psych evals, as well as shelves of psychology books. Each one has a revision, and every other one has a second revision. Rarely is information so flexible.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cyberlab
+  background: LetheMap/cyber
+  reachable_areas: East Wing, Simulation Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: Articles and computer archives on hacking incidents and their related crimes, tracing culprits, and a pair of computers set up to simulate a hacker-detective competition. Connects directly to the Simulation Room.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Simulation Room
+  background: LetheMap/sim
+  reachable_areas: East Wing, Cyberlab
+  scream_range: <REACHABLE_AREAS>
+  default_description: A high-tech space for investigating simulated crimes. There are tables and projectors around the room for reviews and note-taking as well as a state of the art augmented reality device at the center. Connects directly to the Cyberlab.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Conspiracy Lab
+  background: LetheMap/conlab
+  background_tod: 
+    day: LetheMap/conlab
+    evening: LetheMap/conlab_eve
+    night: LetheMap/conlab_night
+  reachable_areas: East Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: Someone ordered a bunch of pegboards, CRT Monitors, and thumbtacks, and this is where all of it goes. Three different boards are dedicated to great mysteries of the world and the last to how exactly all the food manages to get to the Kitchen everyday.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Criminology Archive
+  background: LetheMap/crime
+  reachable_areas: East Wing, East Stairwell
+  scream_range: <REACHABLE_AREAS>
+  default_description: Filing cabinet upon filing cabinet of newspapers, shelves of old murder cases, computer access to the news, and an ashtray which appears recently used. With this kind of preparation, investigating any crime must be elementary.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Lecture Hall
+  background: LetheMap/lecture
+  background_tod: 
+    day: LetheMap/lecture
+    evening: LetheMap/lecture_eve
+    night: LetheMap/lecture_night
+  reachable_areas: North Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: It's a fairly standard lecture hall. Lots of space, a set of a hundred folded chairs in the back, and a lecturn with a microphone.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Library 1st Floor
+  background: LetheMap/library
+  background_tod: 
+    day: LetheMap/library
+    evening: LetheMap/library_eve
+    night: LetheMap/library_night
+  reachable_areas: North Wing, Archive, Library Mezzanine
+  scream_range: <REACHABLE_AREAS>
+  default_description: Each wall has five bookshelves, each shelf has thirty-two books identical in format; each book contains at least four-hundred and ten pages. A door to the Archive is towards the back.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Archive
+  background: LetheMap/archive
+  background_tod: 
+    day: LetheMap/archive
+    evening: LetheMap/archive_eve
+    night: LetheMap/archive_night
+  reachable_areas: Library
+  scream_range: <REACHABLE_AREAS>
+  default_description: A forboding room full of different large volumes on mysteries, detectives, and crime. There are some peculier sections including "Redacted Evidence" and "Confessions".
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Library 2nd Floor
+  background: LetheMap/mezz
+  background_tod: 
+    day: LetheMap/mezz
+    evening: LetheMap/mezz_eve
+    night: LetheMap/mezz_night
+  reachable_areas: Library, Central Corridor
+  scream_range: <REACHABLE_AREAS>
+  default_description: A room full of desks and lamps neatly organized to allow a bit of privacy but permit many people to read and study in silence.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: West Stairwell
+  background: LetheMap/weststairs
+  background_tod: 
+    day: LetheMap/weststairs
+    evening: LetheMap/weststairs_eve
+    night: LetheMap/weststairs_night
+  reachable_areas: Main Hall, West Wing, North Wing, Paranormal Containment, Admin Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: Eastwell, mon cheri.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: East Stairwell
+  background: LetheMap/eaststairs
+  background_tod: 
+    day: LetheMap/eaststairs
+    evening: LetheMap/eaststairs_eve
+    night: LetheMap/eaststairs_night
+  reachable_areas: East Wing, Main Hall, North Wing, Criminology Archive, Faculty Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: Westwell, my love.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Restroom
+  background: LetheMap/restroom
+  reachable_areas: North Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: I look into the void, and the void... asks for some privacy.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Central Corridor
+  background: LetheMap/central
+  background_tod: 
+    day: LetheMap/central
+    evening: LetheMap/central_eve
+    night: LetheMap/central_night
+  reachable_areas: Library Mezzanine, Admin Wing, Faculty Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: A central corridor is corridor central. Faculty Offices are to the East, Administrative Offices to the West, and the Library to the North.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Faculty Wing
+  background: LetheMap/faculty
+  background_tod: 
+    day: LetheMap/faculty
+    evening: LetheMap/faculty_eve
+    night: LetheMap/faculty_night
+  reachable_areas: Central Corridor, East Stairwell, Faculty Lounge, Meeting Room, Storage Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: The atmosphere here relaxes slightly. Doors with windows, a skylight to let the daylight in. I suppose it ought to be nice when teachers are so underpaid.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Admin Wing
+  background: LetheMap/admin
+  background_tod: 
+    day: LetheMap/admin
+    evening: LetheMap/admin_eve
+    night: LetheMap/admin_night
+  reachable_areas: Central Corridor, West Stairwell, Headmaster's Office, Secretarial Antechamber, School Records Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: Far more serious than the rest of the complex. Offices and meeting rooms, and an embellished door for the Headmaster.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Faculty Lounge
+  background: LetheMap/lounge
+  background_tod: 
+    day: LetheMap/lounge
+    evening: LetheMap/lounge_eve
+    night: LetheMap/lounge_night
+  reachable_areas: Faculty Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: A lovely little room with a table, a big window, and an abstract picture of a dismembered celloist. Ah, and a coffee machine. The lifeblood of the modern teacher.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Meeting Room
+  background: LetheMap/meeting
+  background_tod: 
+    day: LetheMap/meeting
+    evening: LetheMap/meeting_eve
+    night: LetheMap/meeting_night
+  reachable_areas: Faculty Wing, Storage Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: A big table and many chairs. No one likes this room, you can feel it in the air.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Storage Room
+  background: LetheMap/storage
+  reachable_areas: Faculty Wing, Meeting Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: Boxes upon boxes upon boxes again. But no inventory list. It feels like if you reached into a box you could pull out every dreadful thing imaginable, and maybe at the bottom find hope.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Headmaster's Office
+  background: LetheMap/headmaster
+  background_tod: 
+    day: LetheMap/headmaster
+    evening: LetheMap/headmaster_eve
+    night: LetheMap/headmaster_night
+  reachable_areas: Admin Wing, School Records Room
+  scream_range: <REACHABLE_AREAS>
+  default_description: A big, guilded office full of awards and diplomas and trophies. ...Wait, some of these don't even name a school.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: Admin Wing, School Records Room
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Secretarial Antechamber
+  background: LetheMap/secretary
+  background_tod: 
+    day: LetheMap/secretary
+    evening: LetheMap/secretary_eve
+    night: LetheMap/secretary_night
+  reachable_areas: Admin Wing
+  scream_range: <REACHABLE_AREAS>
+  default_description: An unnecessarily gigantic room with nothing but a single desk and an overly fancy chandelier.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: School Records Room
+  background: LetheMap/records
+  reachable_areas: Admin Wing, Headmaster's Office
+  scream_range: <REACHABLE_AREAS>
+  default_description: Racks and racks of servers, some of which are locked in glass cabinets. Different stickynotes denote their purposes, from yearbooks and student records, to class assignments, to "Detective Aptitude Results".
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Garden Path
+  background: LetheMap/path
+  background_tod:
+    day: LetheMap/path
+    evening: LetheMap/path_eve
+    night: LetheMap/path_night
+  reachable_areas: Main Hall, Dorm Skybridge, Garden Park, Cabin (Outdoors)
+  scream_range: <REACHABLE_AREAS>
+  default_description: A beautiful area leading down to the park, with nice hedges and the sound of an almost hesitant birdsong.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Garden Park
+  background: LetheMap/garden
+  background_tod:
+    day: LetheMap/garden
+    evening: LetheMap/garden_eve
+    night: LetheMap/garden_night
+  reachable_areas: Garden Path, Outdoor Swing, Cabin (Outdoors)
+  scream_range: <REACHABLE_AREAS>
+  default_description: A gorgeous park with a central gazebo and trees. Comfortable weather and cozy shade. Honestly, not that bad considering the strange situation.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Outdoor Swing
+  background: LetheMap/swing
+  background_tod:
+    day: LetheMap/swing
+    evening: LetheMap/swing_eve
+    night: LetheMap/swing_night
+  reachable_areas: Garden Park
+  scream_range: <REACHABLE_AREAS>
+  default_description: A swing bound to a large, reliable tree. A rather relaxing place to take a breather.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Greenhouse (Outdoors)
+  background: LetheMap/greenhouse_outdoor
+  background_tod:
+    day: LetheMap/greenhouse_outdoor
+    evening: LetheMap/greenhouse_outdoor_eve
+    night: LetheMap/greenhouse_outdoor_night
+  reachable_areas: Courtyard, Greenhouse (Indoors)
+  scream_range: <REACHABLE_AREAS>
+  default_description: A gorgeous structure standing against the rays of the sun, windows allowing a whisper of the contents to your senses.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Greenhouse (Indoors)
+  background: LetheMap/greenhouse
+  background_tod:
+    day: LetheMap/greenhouse
+    evening: LetheMap/greenhouse_eve
+    night: LetheMap/greenhouse_night
+  reachable_areas: Greenhouse (Outdoors)
+  scream_range: <REACHABLE_AREAS>
+  default_description: A lovely and well-stocked area full of various flora and different kinds of fertilizers.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cabin (Outdoors)
+  background: LetheMap/cabin_outdoors
+  background_tod:
+    day: LetheMap/cabin_outdoors
+    evening: LetheMap/cabin_outdoors_eve
+    night: LetheMap/cabin_outdoors_night
+  reachable_areas: Garden Path, Garden Park
+  scream_range: <REACHABLE_AREAS>
+  default_description: A cabin standing tall in the grass. It oozes ominous mystery. Unfortunately, it's locked.
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: Garden Path, Garden Park, Cabin (Indoors)
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Cabin (Indoors)
+  background: LetheMap/cabin
+  reachable_areas: Cabin (Outdoors)
+  scream_range: <REACHABLE_AREAS>
+  default_description: And you may ask yourself... How did I get here?
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
+- area: Strange Room
+  background: LetheMap/cabin
+  reachable_areas: Headmaster's Office
+  scream_range: <REACHABLE_AREAS>
+  default_description: And you may ask yourself... How did I get here?
+  rp_getareas_allowed: true
+  locking_allowed: true
+  lobby_area: false
+  private_area: false
+  afk_delay: 0
+  afk_sentto: 0
+  bglock: false
+  bullet: true
+  cbg_allowed: true
+  change_reachability_allowed: true
+  gm_iclock_allowed: true
+  iniswap_allowed: true
+  global_allowed: true
+  has_lights: true
+  visible_areas: <REACHABLE_AREAS>
+  restricted_chars: ''
+  rollp_allowed: true
+  rp_getarea_allowed: true
+  song_switch_allowed: true
