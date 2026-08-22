@@ -1555,7 +1555,7 @@
   song_switch_allowed: true
 - area: Mystery Labyrinth
   background: LetheMap/labyrinth
-  reachable_areas: Lethean Academy Hub, Conspiracy Lab (ML), Meeting Room (ML), Storage Room (ML), Forensics Lab (ML), Courtyard (ML), Temple (ML), Detective's Lounge
+  reachable_areas: Lethean Academy Hub, Conspiracy Lab (ML), Meeting Room (ML), Storage Room (ML), Forensics Lab (ML), Courtyard (ML), Temple (ML), Detective's Lounge, Trial
   scream_range: <REACHABLE_AREAS>
   default_description: At first... you think yourself to be on a city street, but there is no ground. Figures with no faces fade by in slow motion along the sidewalk, and cars are but a pair of headlights exposing slowly onto reality. The signs are in a language that is familiar and yet entirely unknown to you.
   rp_getareas_allowed: true
