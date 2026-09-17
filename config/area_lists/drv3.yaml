@@ -1,0 +1,958 @@
+- area: Main RP Hub
+  background: Class Trial Debate Room DR2-1_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rollp_allowed: false
+  tl_allowed: false
+  change_reachability_allowed: false
+  lobby_area: true
+  gm_ic_allowed: false
+  song_switch_allowed: true
+- area: Class Trial Room
+  background: Class Trial Debate Room V3-1_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rollp_allowed: false
+  tl_allowed: false
+  change_reachability_allowed: false
+- area: Courtyard
+  background: V3 Courtyard_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Boiler Room, Casino Exterior, Pool, Lower Courtyard, Academy Entrance, Dining Hall
+  scream_range: Dormitory, Boiler Room, Casino Exterior, Pool, Lower Courtyard, Academy Entrance, Dining Hall
+  rp_area: true
+- area: Dormitory
+  background: V3 Dormitory_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard, Dorm Room 1, Dorm Room 2, Dorm Room 3, Dorm Room 4, Dorm Room 5, Dorm Room 6, Dorm Room 7, Dorm Room 8, Dorm Room 9, Dorm Room 10, Dorm Room 11, Dorm Room 12, Dorm Room 13, Dorm Room 14, Dorm Room 15, Dorm Room 16
+  scream_range: Courtyard
+  rp_area: true
+- area: Dorm Room 1
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 1 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 1 Bathroom
+- area: Dorm Room 1 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 1
+  rp_area: true
+  scream_range: Dorm Room 1
+- area: Dorm Room 2
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 2 Bathroom
+  scream_range: Dorm Room 2 Bathroom
+  rp_area: true
+- area: Dorm Room 2 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 2
+  rp_area: true
+  scream_range: Dorm Room 2
+- area: Dorm Room 3
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 3 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 3 Bathroom
+- area: Dorm Room 3 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 3
+  rp_area: true
+  scream_range: Dorm Room 3
+- area: Dorm Room 4
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 4 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 4 Bathroom
+- area: Dorm Room 4 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 4
+  scream_range: Dorm Room 4
+  rp_area: true
+- area: Dorm Room 5
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 5 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 5 Bathroom
+- area: Dorm Room 5 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable areas: Dorm Room 5
+  scream_range: Dorm Room 5
+  rp_area: true
+- area: Dorm Room 6
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 6 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 6 Bathroom
+- area: Dorm Room 6 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 6
+  scream_range: Dorm Room 6
+  rp_area: true
+- area: Dorm Room 7
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 7 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 7 Bathroom
+- area: Dorm Room 7 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 7
+  scream_range: Dorm Room 7
+  rp_area: true
+- area: Dorm Room 8
+  background: V3 Dorm Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 8 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 8 Bathroom
+- area: Dorm Room 8 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 8
+  scream_range: Dorm Room 8
+  rp_area: true
+- area: Dorm Room 9
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 9 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 9 Bathroom
+- area: Dorm Room 9 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 9
+  scream_range: Dorm Room 9
+  rp_area: true
+- area: Dorm Room 10
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 10 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 10 Bathroom
+- area: Dorm Room 10 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 10
+  scream_range: Dorm Room 10
+  rp_area: true
+- area: Dorm Room 11
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 11 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 11 Bathroom
+- area: Dorm Room 11 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 11
+  scream_range: Dorm Room 11
+  rp_area: true
+- area: Dorm Room 12
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 12 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 12 Bathroom
+- area: Dorm Room 12 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 12
+  rp_area: true
+  scream_range: Dorm Room 12
+- area: Dorm Room 13
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 13 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 13 Bathroom
+- area: Dorm Room 13 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 13
+  rp_area: true
+  scream_range: Dorm Room 13
+- area: Dorm Room 14
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 14 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 14 Bathroom
+- area: Dorm Room 14 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 14
+  rp_area: true
+  scream_range: Dorm Room 14
+- area: Dorm Room 15
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 15 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 15 Bathroom
+- area: Dorm Room 15 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 15
+  scream_range: Dorm Room 15
+  rp_area: true
+- area: Dorm Room 16
+  background: V3 Dorm Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dormitory, Dorm Room 16 Bathroom
+  rp_area: true
+  scream_range: Dorm Room 16 Bathroom
+- area: Dorm Room 16 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dorm Room 16
+  scream_range: Dorm Room 16
+  rp_area: true
+- area: Boiler Room
+  background: V3 Boiler Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard, Underground Passage
+  scream_range: Courtyard, Underground Passage
+  rp_area: true
+- area: Underground Passage
+  background: V3 Underground Passage_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Boiler Room
+  scream_range: Boiler Room
+  rp_area: true
+- area: Casino Exterior
+  background: V3 Casino Exterior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard, Casino First Floor, Love Suite
+  scream_range: Courtyard, Casino First Floor
+  rp_area: true
+- area: Casino First Floor
+  background: V3 Casino 1F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Casino Exterior, Casino Basement Floor
+  scream_range: Casino Exterior, Casino Basement Floor
+  rp_area: true
+- area: Casino Basement Floor
+  background: V3 Casino BF_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Casino First Floor
+  scream_range: Casino First Floor
+  rp_area: true
+- area: Love Suite
+  background: V3 Love Hotel_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Casino Exterior, Love Suite Bathroom
+  scream_range: Love Suite Bathroom
+  rp_area: true
+- area: Love Suite Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Love Suite
+  scream_range: Love Suite
+  rp_area: true
+- area: Pool
+  background: V3 Pool_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard
+  scream_range: Courtyard
+  rp_area: true
+- area: Lower Courtyard
+  background: V3 Lower Courtyard_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard, Aikido Master Lab, Shrine of Judgment, Robot Lab, Inventor Lab, Cyber Courtyard
+  scream_range: Courtyard, Aikido Master Lab, Shrine of Judgment, Robot Lab, Inventor Lab, Cyber Courtyard
+  rp_area: true
+- area: Aikido Master Lab
+  background: V3 Tenkos Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Lower Courtyard
+  scream_range: Lower Courtyard
+  rp_area: true
+- area: Shrine of Judgment
+  background: V3 Shrine of Judgment_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Lower Courtyard, Class Trial Room
+  scream_range: Lower Courtyard
+  rp_area: true
+- area: Robot Lab
+  background: V3 Keebos Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Lower Courtyard
+  scream_range: Lower Courtyard
+  rp_area: true
+- area: Inventor Lab
+  background: V3 Mius Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Lower Courtyard
+  scream_range: Lower Courtyard
+  rp_area: true
+- area: Cyber Courtyard
+  background: V3 Cyber Courtyard_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Lower Courtyard, Exisal Hangar Exterior
+  scream_range: Lower Courtyard, Exisal Hangar Exterior
+  rp_area: true
+- area: Exisal Hangar Exterior
+  background: V3 Hangar Exterior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Cyber Courtyard, Exisal Hangar
+  scream_range: Cyber Courtyard, Exisal Hangar
+  rp_area: true
+- area: Exisal Hangar
+  background: V3 Exisal Hangar_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Exisal Hangar Exterior, Exisal Hangar Bathroom
+  scream_range: Exisal Hangar Exterior, Exisal Hangar Bathroom
+  rp_area: true
+- area: Exisal Hangar Bathroom
+  background: V3 Hangar Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Exisal Hangar
+  scream_range: Exisal Hangar
+  rp_area: true
+- area: Academy Entrance
+  background: V3 Academy Entrance_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Courtyard, 1F Hallway, Classroom A, Basement Hallway
+  scream_range: Courtyard, 1F Hallway, Classroom A, Basement Hallway
+  rp_area: true
+- area: 1F Hallway
+  background: V3 Hallway 1F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Academy Entrance, Boys Bathroom, Girls Bathroom, Dining Hall, Warehouse, School Store, Gym Hallway, 2F Hallway
+  scream_range: Academy Entrance, Boys Bathroom, Girls Bathroom, Dining Hall, Warehouse, School Store, Gym Hallway, 2F Hallway
+  rp_area: true
+- area: Classroom A
+  background: V3 Classroom A_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Academy Entrance
+  scream_range: Academy Entrance
+  rp_area: true
+- area: Boys Bathroom
+  background: V3 Boys Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway
+  scream_range: 1F Hallway
+  rp_area: true
+- area: Girls Bathroom
+  background: V3 Girls Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway, Motherkuma Room
+  rp_area: true
+  scream_range: 1F Hallway
+- area: Dining Hall
+  background: V3 Dining Hall_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway, Kitchen, Courtyard
+  rp_area: true
+  scream_range: 1F Hallway, Kitchen
+- area: Kitchen
+  background: V3 Kitchen_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Dining Hall
+  scream_range: Dining Hall
+  rp_area: true
+- area: Warehouse
+  background: V3 Warehouse_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway
+  scream_ranges: 1F Hallway
+  rp_area: true
+- area: School Store
+  background: V3 School Store_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway
+  rp_area: true
+  scream_ranges: 1F Hallway
+- area: Gym Hallway
+  background: V3 Hallway 1F-2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway, Magician Lab, Spiral Staircase, Gym
+  rp_area: true
+  scream_ranges: 1F Hallway, Magician Lab, Spiral Staircase, Gym
+- area: Magician Lab
+  background: V3 Himikos Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Gym Hallway
+  scream_range: Gym Hallway
+  rp_area: true
+- area: Spiral Staircase
+  background: V3 Spiral Staircase_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Gym Hallway, Astronaut Lab
+  scream_range: Gym Hallway, Astronaut Lab
+  rp_area: true
+- area: Astronaut Lab
+  background: V3 Kaitos Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Spiral Staircase
+  rp_area: true
+  scream_range: Spiral Staircase
+- area: Gym
+  background: V3 Gym_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Gym Hallway
+  rp_area: true
+  scream_range: Gym Hallway
+- area: Basement Hallway
+  background: V3 Basement Hallway_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Academy Entrance, AV Room, Game Room, Supreme Leader Lab, Library
+  scream_range: Academy Entrance, AV Room, Game Room, Supreme Leader Lab, Library
+  rp_area: true
+- area: AV Room
+  background: V3 AV Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Basement Hallway, Game Room
+  rp_area: true
+- area: Game Room
+  background: V3 Game Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Basement Hallway, AV Room
+  scream_range: Basement Hallway
+  rp_area: true
+- area: Supreme Leader Lab
+  background: V3 Kokichis Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Basement Hallway
+  scream_range: Basement Hallway
+  rp_area: true
+- area: Library
+  background: V3 Library_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Basement Hallway, Motherkuma Room
+  scream_range: Basement Hallway
+  rp_area: true
+- area: Motherkuma Room
+  background: V3 Motherkuma Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Library, Girls Bathroom
+  rp_area: true
+- area: 2F Hallway
+  background: V3 Hallway 2F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 1F Hallway, Entomologist Lab, Maid Lab, Classroom B, Classroom C, Pianist Lab, 3F Hallway
+  scream_range: 1F Hallway, Entomologist Lab, Maid Lab, Classroom B, Classroom C, Pianist Lab, 3F Hallway
+  rp_area: true
+- area: Entomologist Lab
+  background: V3 Gontas Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway
+  scream_range: 2F Hallway
+  rp_area: true
+- area: Maid Lab
+  background: V3 Kirumis Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway
+  rp_area: true
+  scream_range: 2F Hallway
+- area: Classroom B
+  background: V3 Classroom B_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway
+  rp_area: true
+  scream_range: 2F Hallway
+- area: Classroom C
+  background: V3 Classroom C_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway
+  rp_area: true
+  scream_range: 2F Hallway
+- area: Pianist Lab
+  background: V3 Kaedes Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway
+  rp_area: true
+  scream_range: 2F Hallway
+- area: 3F Hallway
+  background: V3 Hallway 3F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 2F Hallway, Relaxation Space, Tennis Pro Lab
+  rp_area: true
+  scream_range: 2F Hallway, Relaxation Space, Tennis Pro Lab
+- area: Relaxation Space
+  background: V3 Hallway 3F-2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 3F Hallway, Assassin Lab, 4F Hallway
+  scream_range: 3F Hallway, Assassin Lab, 4F Hallway
+  rp_area: true
+- area: Tennis Pro Lab
+  background: V3 Ryomas Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 3F Hallway, Tennis Pro Lab Shower Room
+  scream_range: 3F Hallway, Tennis Pro Lab Shower Room
+  rp_area: true
+- area: Tennis Pro Lab Shower Room
+  background: V3 Ryomas Lab Shower Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Tennis Pro Lab
+  scream_range: Tennis Pro Lab
+  rp_area: true
+- area: Assassin Lab
+  background: V3 Makis Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Relaxation Space
+  scream_range: Relaxation Space
+  rp_area: true
+- area: 4F Hallway
+  background: V3 Hallway 4F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, Relaxation Space, Artist Lab, Anthropologist Lab, Empty Room 1, Empty Room 2, Empty Room 3, Computer Room, 5F Hallway
+  scream_range: Relaxation Space, Artist Lab, Anthropologist Lab, Empty Room 1, Empty Room 2, Empty Room 3, Computer Room, 5F Hallway
+  rp_area: true
+- area: Artist Lab
+  background: V3 Angies Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  scream_range: 4F Hallway
+  rp_area: true
+- area: Anthropologist Lab
+  background: V3 Korekiyos Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  rp_area: true
+  scream_range: 4F Hallway
+- area: Empty Room 1
+  background: V3 Empty Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  rp_area: true
+  scream_range: 4F Hallway
+- area: Empty Room 2
+  background: V3 Empty Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  scream_range: 4F Hallway
+  rp_area: true
+- area: Empty Room 3
+  background: V3 Empty Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  scream_range: 4F Hallway
+  rp_area: true
+- area: Computer Room
+  background: V3 Computer Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway
+  rp_area: true
+- area: 5F Hallway
+  background: V3 Hallway 5F_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 4F Hallway, Cosplayer Lab, 5F Hallway Columns
+  scream_range: 4F Hallway, Cosplayer Lab, 5F Hallway Columns
+  rp_area: true
+- area: Cosplayer Lab
+  background: V3 Tsumugis Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 5F Hallway
+  scream_range: 5F Hallway
+  rp_area: true
+- area: 5F Hallway Columns
+  background: V3 Hallway 5F-2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 5F Hallway, Adventurer Lab, Detective Lab
+  scream_range: 5F Hallway, Adventurer Lab, Detective Lab
+  rp_area: true
+- area: Adventurer Lab
+  background: V3 Rantaros Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 5F Hallway Columns
+  scream_range: 5F Hallway Columns
+  rp_area: true
+- area: Detective Lab
+  background: V3 Shuichis Lab_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  reachable_areas: Main RP Hub, 5F Hallway Columns
+  scream_range: 5F Hallway Columns
+  rp_area: true

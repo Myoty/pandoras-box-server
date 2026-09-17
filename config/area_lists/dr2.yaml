@@ -1,0 +1,1324 @@
+- area: Class Trial Room
+  background: Class Trial Debate Room DR2-3_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rollp_allowed: false
+  tl_allowed: false
+  change_reachability_allowed: false
+- area: Main RP Hub
+  background: Class Trial Debate Room DR2-1_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rollp_allowed: false
+  tl_allowed: false
+  change_reachability_allowed: false
+  lobby_area: true
+  gm_ic_allowed: false
+  song_switch_allowed: true
+- area: Park
+  background: DR2 Park_HD
+  background_tod:
+   day: DR2 Park_HD
+   night: DR2 Park (Night)_HD    
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Monokuma Rock, Island 1, Island 2, Island 3, Island 4, Island 5
+  scream_range: Monokuma Rock
+- area: Monokuma Rock
+  background: DR2 Monokuma Rock_HD
+  background_tod:
+   day: DR2 Monokuma Rock_HD
+   night: DR2 Monokuma Rock (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Class Trial Room
+  scream_range: Park
+- area: Island 1
+  background: Island 1_HD
+  background_tod:
+   day: Island 1_HD
+   night: Island 1 (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Beach, Airport, Market, Corral, Hotel Exterior  
+  scream_range: Beach, Airport, Market, Corral, Hotel Exterior
+- area: Beach
+  background: DR2 Beach_HD
+  background_tod:
+   day: DR2 Beach_HD
+   night: DR2 Beach (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 1
+
+- area: Airport
+  background: DR2 Airport_HD
+  background_tod:
+   day: DR2 Airport_HD
+   night: DR2 Airport (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 1
+
+- area: Market
+  background: DR2 Market_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 1
+
+- area: Corral
+  background: DR2 Corral_HD
+  background_tod:
+   day: DR2 Corral_HD
+   night: DR2 Corral (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 1
+
+- area: Hotel Exterior
+  background: DR2 Hotel Exterior_HD
+  background_tod:
+   day: DR2 Hotel Exterior_HD
+   night: DR2 Hotel Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 1, Boys Lodges, Girls Lodges, Hotel Lobby, Old Building Exterior, Restaurant
+  scream_range: Hotel Lobby, Old Building Exterior, Restaurant, Girls Lodges, Boys Lodges
+- area: Boys Lodges
+  background: DR2 Lodge Entrance_HD
+  background_tod:
+   day: DR2 Lodge Entrance_HD
+   night: DR2 Lodge Entrance (Night)_HD 
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hotel Exterior, Hotel Lobby, Old Building Exterior, Restaurant, Girls Lodges
+  reachable_areas: Main RP Hub, Hotel Exterior, Lodge 1, Lodge 2, Lodge 3, Lodge 4, Lodge 5, Lodge 6, Lodge 7, Lodge 8
+- area: Girls Lodges
+  background: DR2 Lodge Entrance_HD
+  background_tod:
+   day: DR2 Lodge Entrance_HD
+   night: DR2 Lodge Entrance (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hotel Exterior, Hotel Lobby, Old Building Exterior, Restaurant, Boys Lodges
+  reachable_areas: Main RP Hub, Hotel Exterior, Lodge 9, Lodge 10, Lodge 11, Lodge 12, Lodge 13, Lodge 14, Lodge 15, Lodge 16 
+
+- area: Lodge 1
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD 
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 1 Bathroom
+  scream_range: Lodge 1 Bathroom
+- area: Lodge 1 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 1
+  scream_range: Lodge 1
+- area: Lodge 2
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 2 Bathroom
+  scream_range: Lodge 2 Bathroom
+- area: Lodge 2 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 2
+  scream_range: Lodge 2
+- area: Lodge 3
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 3 Bathroom
+  scream_range: Lodge 3 Bathroom
+- area: Lodge 3 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 3
+  scream_range: Lodge 3
+- area: Lodge 4
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 4 Bathroom
+  scream_range: Lodge 4 Bathroom
+- area: Lodge 4 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 4
+  scream_range: Lodge 4
+- area: Lodge 5
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 5 Bathroom
+  scream_range: Lodge 5 Bathroom
+- area: Lodge 5 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 5
+  scream_range: Lodge 5
+- area: Lodge 6
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 6 Bathroom
+  scream_range: Lodge 6 Bathroom
+- area: Lodge 6 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 6
+  scream_range: Lodge 6
+- area: Lodge 7
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 7 Bathroom
+  scream_range: Lodge 7 Bathroom
+- area: Lodge 7 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 7
+  scream_range: Lodge 7
+- area: Lodge 8
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD  
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Boys Lodges, Lodge 8 Bathroom
+  scream_range: Lodge 8 Bathroom
+- area: Lodge 8 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 8
+  scream_range: Lodge 8
+- area: Lodge 9
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 9 Bathroom
+  scream_range: Lodge 9 Bathroom
+- area: Lodge 9 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 9
+  scream_range: Lodge 9
+- area: Lodge 10
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 10 Bathroom
+  scream_range: Lodge 10 Bathroom
+- area: Lodge 10 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 10
+  scream_range: Lodge 10
+- area: Lodge 11
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 11 Bathroom
+  scream_range: Lodge 11 Bathroom
+- area: Lodge 11 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 11
+  scream_range: Lodge 11
+- area: Lodge 12
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 12 Bathroom
+  scream_range: Lodge 12 Bathroom
+- area: Lodge 12 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 12
+  scream_range: Lodge 12
+- area: Lodge 13
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 13 Bathroom
+  scream_range: Lodge 13 Bathroom
+- area: Lodge 13 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 13
+  scream_range: Lodge 13
+- area: Lodge 14
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 14 Bathroom
+  scream_range: Lodge 14 Bathroom
+- area: Lodge 14 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 14
+  scream_range: Lodge 14
+- area: Lodge 15
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 15 Bathroom
+  scream_range: Lodge 15 Bathroom
+- area: Lodge 15 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 15
+  scream_range: Lodge 15
+- area: Lodge 16
+  background: DR2 Lodge Interior_HD
+  background_tod:
+   day: DR2 Lodge Interior_HD
+   night: DR2 Lodge Interior (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Girls Lodges, Lodge 16 Bathroom
+  scream_range: Lodge 16 Bathroom
+- area: Lodge 16 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Lodge 16
+  scream_range: Lodge 16
+- area: Hotel Lobby
+  background: DR2 Hotel Lobby_HD
+  background_tod:
+   day: DR2 Hotel Lobby_HD
+   night: DR2 Hotel Lobby (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Hotel Exterior, Restaurant
+  scream_range: Hotel Exterior, Restaurant, Old Building Exterior, Girls Lodges, Boys Lodges
+- area: Restaurant
+  background: DR2 Restaurant_HD
+  background_tod:
+   day: DR2 Restaurant_HD
+   night: DR2 Restaurant (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Hotel Exterior, Hotel Lobby
+  scream_range: Hotel Exterior, Old Building Exterior, Girls Lodges, Boys Lodges, Hotel Lobby
+- area: Old Building Exterior
+  background: DR2 Old Building Exterior_HD
+  background_tod:
+   day: DR2 Old Building Exterior_HD
+   night: DR2 Old Building Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Hotel Exterior, Old Building Interior
+  scream_range: Hotel Exterior, Restaurant, Old Building Interior, Girls Lodges, Boys Lodges, Hotel Lobby
+- area: Old Building Interior
+  background: DR2 Old Building Interior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Old Building Exterior, Old Building Dining Room, Old Building Kitchen, Old Building Office, Old Building Storage, Old Building Restroom
+  reachable_areas: Main RP Hub, Hotel Exterior, Old Building Exterior, Old Building Dining Room, Old Building Kitchen, Old Building Office, Old Building Storage, Old Building Restroom
+- area: Old Building Dining Room
+  background: DR2 Dining_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Old Building Interior
+  scream_range: Old Building Interior, Old Building Kitchen, Old Building Office, Old Building Storage, Old Building Restroom
+- area: Old Building Kitchen
+  background: DR2 Kitchen_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Old Building Interior
+  scream_range: Old Building Interior, Old Building Dining Room, Old Building Office, Old Building Storage, Old Building Restroom
+- area: Old Building Office
+  background: DR2 Old Building Office_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Old Building Interior
+  scream_range: Old Building Interior, Old Building Dining Room, Old Building Kitchen, Old Building Storage, Old Building Restroom
+- area: Old Building Storage
+  background: DR2 Old Building Storage_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Old Building Interior
+  scream_range: Old Building Interior, Old Building Dining Room, Old Building Kitchen, Old Building Office, Old Building Restroom
+- area: Old Building Restroom
+  background: DR2 Old Building Restroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Old Building Interior, Old Building Dining Room, Old Building Kitchen, Old Building Office, Old Building Storage
+  reachable_areas: Main RP Hub, Old Building Interior
+- area: Island 2
+  background: Island 2_HD
+  background_tod:
+   day: Island 2_HD
+   night: Island 2 (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Ancient Ruins, Library, Diner Exterior, Pharmacy
+- area: Pharmacy
+  background: DR2 Pharmacy_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 2
+- area: Ancient Ruins
+  background: DR2 Ancient Ruins_HD
+  background_tod:
+   day: DR2 Ancient Ruins_HD
+   night: DR2 Ancient Ruins (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 2
+- area: Library
+  background: DR2 Library_HD
+  background_tod:
+   day: DR2 Library_HD
+   night: DR2 Library (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 2
+- area: Diner Exterior
+  background: DR2 Diner Exterior_HD
+  background_tod:
+   day: DR2 Diner Exterior_HD
+   night: DR2 Diner Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 2, Diner Interior, Beach House Exterior
+  scream_range: Diner Interior, Beach House Exterior, Chandler Beach
+- area: Diner Interior
+  background: DR2 Diner Interior_HD
+  background_tod:
+   day: DR2 Diner Interior_HD
+   night: DR2 Diner Interior (Night)_HD 
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Diner Exterior
+  scream_range: Diner Exterior
+- area: Beach House Exterior
+  background: DR2 Beach House Exterior_HD
+  background_tod:
+   day: DR2 Beach House Exterior_HD
+   night: DR2 Beach House Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Diner Exterior, Beach House Interior, Chandler Beach, Beach House Bathroom
+  reachable_areas: Main RP Hub, Diner Exterior, Beach House Interior, Chandler Beach
+- area: Beach House Interior
+  background: DR2 Beach House Interior_HD
+  background_tod:
+   day: DR2 Beach House Interior_HD
+   night: DR2 Beach House Interior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Beach House Exterior, Chandler Beach, Beach House Closet, Beach House Bathroom
+  scream_range: Beach House Exterior, Chandler Beach, Beach House Closet, Beach House Closet, Beach House Bathroom
+- area: Beach House Closet
+  background: DR2 Beach House Closet_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Beach House Interior
+  scream_range: Beach House Interior
+- area: Beach House Bathroom
+  background: DR2 Beach House Bathroom_HD
+  background_tod:
+   day: DR2 Beach House Bathroom_HD
+   night: DR2 Beach House Bathroom (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Beach House Exterior, Chandler Beach, Beach House Interior
+  reachable_areas: Main RP Hub, Beach House Interior, Beach House Exterior
+- area: Chandler Beach
+  background: DR2 Chandler Beach_HD
+  background_tod:
+   day: DR2 Chandler Beach_HD
+   night: DR2 Chandler Beach (Night)_HD   
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Beach House Interior, Beach House Exterior
+  scream_range: Beach House Interior, Beach House Exterior, Diner Exterior, Beach House Bathroom
+- area: Island 3
+  background: Island 3_HD
+  background_tod:
+   day: Island 3_HD
+   night: Island 3 (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Hospital Lobby, Music Venue Exterior, Motel Exterior, Electric Avenue, Movie Theater
+- area: Hospital Lobby
+  background: DR2 Hospital Lobby_HD
+  background_tod:
+   day: DR2 Hospital Lobby_HD
+   night: DR2 Hospital Lobby (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hospital Hallway, Hospital Conference Room, Hospital Staff Room, Hospital Room 1, Hospital Room 2
+  reachable_areas: Main RP Hub, Island 3, Hospital Hallway
+- area: Hospital Hallway
+  background: DR2 Hospital Hallway_HD
+  background_tod:
+   day: DR2 Hospital Hallway_HD
+   night: DR2 Hospital Hallway (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hospital Conference Room, Hospital Staff Room, Hospital Room 1, Hospital Room 2, Hospital Lobby
+  reachable_areas: Main RP Hub, Island 3, Hospital Conference Room, Hospital Staff Room, Hospital Room 1, Hospital Room 2, Hospital Lobby
+- area: Hospital Conference Room
+  background: DR2 Hospital Conference Room_HD
+  background_tod:
+   day: DR2 Hospital Conference Room_HD
+   night: DR2 Hospital Conference Room (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hospital Lobby, Hospital Staff Room, Hospital Room 1, Hospital Room 2, Hospital Hallway
+  reachable_areas: Main RP Hub, Hospital Hallway
+- area: Hospital Staff Room
+  background: DR2 Hospital Staff Room_HD
+  background_tod:
+   day: DR2 Hospital Staff Room_HD
+   night: DR2 Hospital Staff Room (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Hospital Conference Room, Hospital Lobby, Hospital Room 1, Hospital Room 2, Hospital Hallway
+  reachable_areas: Main RP Hub, Hospital Hallway
+- area: Hospital Room 1
+  background: DR2 Hospital Room_HD
+  background_tod:
+   day: DR2 Hospital Room_HD
+   night: DR2 Hospital Room (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Hospital Hallway
+  scream_range: Hospital Conference Room, Hospital Staff Room, Hospital Lobby, Hospital Room 2, Hospital Hallway
+- area: Hospital Room 2
+  background: DR2 Hospital Room_HD
+  background_tod:
+   day: DR2 Hospital Room_HD
+   night: DR2 Hospital Room (Night)_HD  
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Hospital Hallway
+  scream_range: Hospital Conference Room, Hospital Staff Room, Hospital Room 1, Hospital Lobby, Hospital Hallway
+- area: Music Venue Exterior
+  background: DR2 Music Venue Exterior_HD
+  background_tod:
+   day: DR2 Music Venue Exterior_HD
+   night: DR2 Music Venue Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 3, Music Venue Interior
+  scream_range: Music Venue Interior
+- area: Music Venue Interior
+  background: DR2 Music Venue Interior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Music Venue Exterior, Music Venue Storage
+  scream_range: Music Venue Exterior, Music Venue Storage
+- area: Music Venue Storage
+  background: DR2 Music Venue Storage_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Music Venue Interior
+  scream_range: Music Venue Interior, Music Venue Storage
+- area: Motel Exterior
+  background: DR2 Motel Exterior_HD
+  background_tod:
+   day: DR2 Motel Exterior_HD
+   night: DR2 Motel Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 3, Motel Room 1, Motel Room 2
+  scream_range: Motel Room 1, Motel Room 2, Motel Room 1 Bathroom, Motel Room 2 Bathroom
+- area: Motel Room 1
+  background: DR2 Motel Interior_HD
+  background_tod:
+   day: DR2 Motel Interior_HD
+   night: DR2 Motel Interior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Motel Exterior, Motel Room 1 Bathroom
+  scream_range: Motel Exterior, Motel Room 1 Bathroom
+- area: Motel Room 1 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Motel Exterior, Motel Room 1
+  reachable_areas: Main RP Hub, Motel Room 1
+- area: Motel Room 2
+  background: DR2 Motel Interior_HD
+  background_tod:
+   day: DR2 Motel Interior_HD
+   night: DR2 Motel Interior (Night)_HD  
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Motel Exterior, Motel Room 2 Bathroom
+  scream_range: Motel Exterior, Motel Room 2 Bathroom
+- area: Motel Room 2 Bathroom
+  background: Dorm Room Bathroom_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  scream_range: Motel Exterior, Motel Room 2
+  reachable_areas: Main RP Hub, Motel Room 2
+- area: Electric Avenue
+  background: DR2 Electric Ave_HD
+  background_tod:
+   day: DR2 Electric Ave_HD
+   night: DR2 Electric Ave (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 3
+- area: Movie Theater
+  background: DR2 Theater_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 3
+- area: Island 4
+  background: Island 4_HD
+  background_tod:
+   day: Island 4_HD
+   night: Island 4 (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Amusement Park, Rollercoaster, Usami's House, Train
+- area: Amusement Park
+  background: DR2 Amusement Park_HD
+  background_tod:
+   day: DR2 Amusement Park_HD
+   night: DR2 Amusement Park (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 4, Nezumi Interior
+  scream_range: Nezumi Interior
+- area: Nezumi Interior
+  background: DR2 Nezumi Interior_HD
+  background_tod:
+   day: DR2 Nezumi Interior_HD
+   night: DR2 Nezumi Interior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Amusement Park
+  scream_range: Amusement Park
+- area: Rollercoaster
+  background: DR2 Rollercoaster_HD
+  background_tod:
+   day: DR2 Rollercoaster_HD
+   night: DR2 Rollercoaster (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 4
+- area: Usami's House
+  background: DR2 Usami's House_HD
+  background_tod:
+   day: DR2 Usami's House_HD
+   night: DR2 Usami's House (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 4, Usami's Room
+  scream_range: Usami's House
+- area: Usami's Room
+  background: DR2 Usami's Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Usami's House
+  scream_range: Usami's House
+- area: Train
+  background: DR2 Train_HD
+  background_tod:
+   day: DR2 Train_HD
+   night: DR2 Train (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 4, Strawberry Playground
+- area: Strawberry Playground
+  background: DR2 Strawberry Playground_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall 2
+  scream_range: Strawberry Hall 2
+- area: Strawberry Entrance
+  background: DR2 Strawberry Entrance_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall
+  scream_range: Strawberry Hall
+- area: Strawberry Hall
+  background: DR2 Strawberry Hall_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Final Dead Room Entrance, Strawberry Hall 2, Strawberry Entrance, Grape Hall
+  scream_range: Final Dead Room Entrance, Strawberry Hall 2, Strawberry Entrance
+- area: Strawberry Hall 2
+  background: DR2 Strawberry Hall 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Lounge, Strawberry Crummy Room, Strawberry Standard Room, Strawberry Deluxe Room, Strawberry Playground, Strawberry Hall
+  scream_range: Strawberry Lounge, Strawberry Crummy Room, Strawberry Hall
+- area: Strawberry Lounge
+  background: DR2 Strawberry Lounge_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall 2
+  scream_range: Strawberry Crummy Room, Strawberry Hall, Strawberry Hall 2
+- area: Strawberry Crummy Room
+  background: DR2 Strawberry Crummy Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall 2  
+  scream_range: Strawberry Lounge, Strawberry Hall, Strawberry Hall 2
+- area: Strawberry Standard Room
+  background: DR2 Strawberry Standard Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall 2
+- area: Strawberry Deluxe Room
+  background: DR2 Strawberry Deluxe Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall 2  
+- area: Grape Entrance
+  background: DR2 Grape Entrance_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 
+  scream_range: Grape Hall
+- area: Grape Hall
+  background: DR2 Grape Hall_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2, Grape Entrance, Strawberry Hall
+  scream_range: Grape Hall 2, Grape Entrance
+- area: Grape Hall 2
+  background: DR2 Grape Hall 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall, Monokuma Room, Grape Lounge, Grape Crummy Room, Grape Standard Room, Grape Deluxe Room
+  scream_range: Grape Hall, Monokuma Room, Grape Lounge, Grape Crummy Room
+- area: Grape Lounge
+  background: DR2 Grape Lounge_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2
+  scream_range: Grape Hall, Grape Hall 2, Monokuma Room, Grape Crummy Room
+- area: Grape Crummy Room
+  background: DR2 Grape Crummy Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2  
+  scream_range: Grape Hall, Grape Lounge, Grape Hall 2
+- area: Grape Standard Room
+  background: DR2 Grape Standard Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2  
+- area: Grape Deluxe Room
+  background: DR2 Grape Deluxe Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2  
+- area: Monokuma Room
+  background: DR2 Monokuma Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Grape Hall 2
+  scream_range: Grape Hall 2, Grape Lounge
+- area: Final Dead Room Entrance
+  background: DR2 Final Dead Room Entrance_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Strawberry Hall, Final Dead Room Interior
+  scream_range: Strawberry Hall
+- area: Final Dead Room Interior
+  background: DR2 Final Dead Room Interior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Final Dead Room Entrance
+  scream_range: Final Dead Room Entrance
+- area: Weapons Room
+  background: DR2 Weapons Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Weapons Room 2, Final Dead Room Interior, Grape Hall 2
+  scream_range: Weapons Room 2
+- area: Weapons Room 2
+  background: DR2 Weapons Room 2_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Weapons Room
+  scream_range: Weapons Room
+- area: Island 5
+  background: Island 5_HD
+  background_tod:
+   day: Island 5_HD
+   night: Island 5 (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Park, Factory Exterior, Vendor Street, Sea King Industries, Military Base
+- area: Military Base
+  background: DR2 Military Base_HD
+  background_tod:
+   day: DR2 Military Base_HD
+   night: DR2 Military Base (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 5
+- area: Factory Exterior
+  background: DR2 Factory Exterior_HD
+  background_tod:
+   day: DR2 Factory Exterior_HD
+   night: DR2 Factory Exterior (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 5, Warehouse, Factory Interior
+  scream_range: Factory Interior, Warehouse
+- area: Factory Interior
+  background: DR2 Factory Interior_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Factory Exterior, Factory Break Room
+  scream_range: Factory Break Room, Factory Exterior
+- area: Factory Break Room
+  background: DR2 Factory Break Room_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Factory Interior
+  scream_range: Factory Interior
+- area: Warehouse
+  background: DR2 Warehouse_HD
+  background_tod:
+   day: DR2 Warehouse_HD
+   night: DR2 Warehouse (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Factory Exterior 
+  scream_range: Factory Exterior
+- area: Vendor Street
+  background: DR2 Vendor Street_HD
+  background_tod:
+   day: DR2 Vendor Street_HD
+   night: DR2 Vendor Street (Night)_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 5
+- area: Sea King Industries
+  background: DR2 Sea King Industries_HD
+  bglock: false
+  evidence_mod: CM
+  locking_allowed: true
+  iniswap_allowed: true
+  rp_getareas_allowed: false
+  rp_area: true
+  reachable_areas: Main RP Hub, Island 5
